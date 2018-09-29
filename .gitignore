@@ -3,5 +3,7 @@
 *.bin
 **/bin/
 **/obj/
+**/cmake-build-debug/
+**/.idea/
 /.metadata/
 *.txt
