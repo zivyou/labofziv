@@ -1,4 +1,7 @@
 *.cbp
-*/bin/
-*/obj/
+*.obj
+*.bin
+**/bin/
+**/obj/
 /.metadata/
+*.txt
