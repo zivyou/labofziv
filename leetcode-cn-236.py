@@ -16,11 +16,18 @@ class Solution(object):
 
         if root.left != None and found[0] == False:
             self.search(root.left, p, re, found)
+        
+        if not found[0]:
+            while re[len(re)-1] != root:
+                re.pop()
+
         if root.right != None and found[0] == False:
             self.search(root.right, p, re, found)
+
+        if not found[0]:
+            while re[len(re)-1] != root:
+                re.pop()
             
-        if root.left == None and root.right == None:
-            re.pop()
 
     def path(self,  root, p):
         re = []
@@ -45,11 +52,6 @@ class Solution(object):
         re1 = self.path(root, p)
         re2 = self.path(root, q)
         
-        for i in re1:
-            print i.val,
-        print "-----"
-        for i in re2:
-            print i.val,
 
         for i in range(min(len(re1), len(re2))):
             if re1[i] == re2[i]:
