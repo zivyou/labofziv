@@ -1,6 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*
+      9         15        15
+     /         /          /
+    15   =>   15    =>   13
+    /         /          /
+   13        13         13
+
+   below condition is not possible, since supposed all childs of 9 had already been built
+
+         9
+        /
+       13
+      /
+     15
+*/
 
 void build_max_heap(int *a, int n)
 {
