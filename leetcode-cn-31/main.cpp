@@ -25,12 +25,13 @@ public:
             cur--;
         }
 
-        //cout<<" debug, cur="<<cur<<endl;
+        cout<<" debug, cur="<<cur<<endl;
         if (cur < 0){
             rawReverse(nums, 0, nums.size()-1);
         }else {
             int j;
             for (j=nums.size()-1; nums[j] <= nums[cur]; j--);
+            cout<<" debug, j="<<j<<endl;
             if (j >= 0) {
                 int t = nums[j];
                 nums[j] = nums[cur];
@@ -46,7 +47,7 @@ public:
 
 int main() {
     Solution s;
-    vector<int> v = {5, 5,  1};
+    vector<int> v = {1,2,3,4,5};
     s.nextPermutation(v);
     for (int i=0; i<v.size(); i++)
         cout<<v[i]<<", ";
