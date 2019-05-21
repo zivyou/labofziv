@@ -1,9 +1,11 @@
 #include <iostream>
 #include <vector>
+#include <bitset>
 using namespace std;
 
 class Solution {
 public:
+    /*
     int singleNumber(vector<int>& nums) {
         int bitCount[33] = {0};
         for (int i=0; i<nums.size(); i++){
@@ -22,7 +24,22 @@ public:
         }
 
         return re;
+    }*/
+
+    int singleNumber(vector<int>& nums) {
+        bitset<32> bits;
+        for (int i=0; i<32; i++){
+            int count = 0;
+            for (int j=0; j<nums.size(); j++){
+                if (nums[j] & (1<<i))
+                    count++;
+            }
+            bits[i] = count %  3;
+        }
+
+        return bits.to_ulong();
     }
+
 };
 
 int main()
