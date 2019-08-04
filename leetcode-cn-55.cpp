@@ -33,12 +33,30 @@ public:
         }
     }
 
+    /*
     bool canJump(vector<int>& nums) {
         result = false;
         vector<int> path;
         map = vector<bool>(nums.size(), true);
         dfs(nums, path, 0);
         return result;
+    }
+    */
+
+    bool canJump(vector<int>& nums){
+        bool reachable[nums.size()];
+        for (int i=0; i<nums.size(); i++)
+            reachable[i] = false;
+        reachable[0] = true;
+        for (int i=0; i<nums.size(); i++){
+            if (!reachable[i])
+                continue;
+            for (int j=i; j<=i+nums[i]&& j<nums.size(); j++){
+                reachable[j]=true;
+            }
+        }
+
+        return reachable[nums.size()-1];
     }
 };
 

@@ -34,6 +34,7 @@ public:
     }
     */
 
+   /*
     void dfs(vector<vector<int> > &re, vector<int> &nums, int end, vector<int> &tmpRe, int count){
         if (re.size() > count)
             return;
@@ -67,10 +68,33 @@ public:
         
         return "";
     }
+    */
+    string getPermutation(int n, int k){
+        string data = "0123456789";
+
+        int f[n+1];
+        f[0] = 1;
+        for (int i=1; i<=n; i++){
+            f[i] = f[i-1] * i;
+        }
+
+        string re = "";
+        while (k >= 1 && n){
+            int pos = (k) / f[n-1];
+            if (k % f[n-1] != 0)
+                pos++;
+            k = k-(pos-1)*f[n-1];
+            re = re + (data[pos]);
+            data.erase(pos, 1);
+            n--;
+        }
+        
+        return re;
+    }
 };
 
 int main(){
     Solution s;
-    s.getPermutation(3, 4);
+    cout<<s.getPermutation(1,1)<<endl;
     return 0;
 }

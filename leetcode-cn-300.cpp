@@ -6,26 +6,27 @@ using namespace std;
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
-        int re[nums.size()];
-        re[0] = 1;
-        for (int i=1; i<nums.size(); i++){
-            if (re[i] > re[i-1])
-                re [i] = 1+re[i-1];
-            else
-            {
-                re[i] = 1;
+        if (nums.size() < 1)
+            return 0;
+        int re = 1;
+        int count[nums.size()];
+        for (int i=0; i<nums.size(); i++)
+            count[i] = 1;
+        
+        for (int i=0; i<nums.size(); i++){
+            for (int j=0; j<i; j++){
+                if (nums[i] > nums[j]){
+                    count[i] = max(count[j]+1, count[i]);
+                }
+                if (count[i] > re)
+                    re = count[i];
             }
         }
-
-        int max = INT_MIN;
-        for (auto v : re){
-            if (v > max)
-                max = v;
-        }
-
-        return max;
+        return re;
     }
 };
+
+
 
 
 int main(){
