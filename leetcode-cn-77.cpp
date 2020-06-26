@@ -38,7 +38,7 @@ public:
 
 int main(){
     Solution s;
-    vector<vector<int> > re = s.combine(4, 2);
+    vector<vector<int> > re = s.combine(5, 2);
     for (int i=0; i<re.size(); i++){
         for (int j=0; j<re[0].size(); j++){
             cout<<re[i][j]<<" ";
