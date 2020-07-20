@@ -9,7 +9,7 @@ using namespace std;
  * class NestedInteger {
  *   public:
  *     // Return true if this NestedInteger holds a single integer, rather than a nested list.
- *     bool isInteger() const;
+ *     bool isIntegerSign() const;
  *
  *     // Return the single integer that this NestedInteger holds, if it holds a single integer
  *     // The result is undefined if this NestedInteger holds a nested list
