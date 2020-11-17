@@ -7,4 +7,4 @@
 **/.idea/
 /.metadata/
 *.txt
-./ccls-cache/*
+.ccls-cache/*
