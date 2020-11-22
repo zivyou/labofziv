@@ -8,3 +8,7 @@
 /.metadata/
 *.txt
 .ccls-cache/*
+.idea/*
+.idea/**
+.vscode/*
+a.out*
