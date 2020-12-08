@@ -10,7 +10,7 @@ namespace Graph {
   public:
     int id;
     int val;
-    std::list<Node*> nexts;
+    std::list<int> nexts;
     std::list<Edge*> edges;
     int in;
     int out;
