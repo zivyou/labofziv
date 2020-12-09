@@ -4,6 +4,7 @@
 #include <fstream>
 #include <queue>
 #include <set>
+#include <stack>
 #include <stdexcept>
 #include "Node.hpp"
 #include "Edge.hpp"
@@ -21,6 +22,38 @@ namespace Graph {
       if (nodes.find(n->id) == nodes.end()) {
         nodes[n->id] = n;
       }
+    }
+
+    std::vector<int> topologySort() {
+      std::map<int, int> backup;
+      for (auto& elem : nodes) {
+        backup[elem.first] = elem.second->in;
+      }
+
+      std::list<int>  zeroIn;
+      for (auto& elem : nodes) {
+        if (elem.second->in == 0) {
+          zeroIn.push_back(elem.first);
+        }
+      }
+
+      std::vector<int> result;
+      while (!zeroIn.empty()) {
+        int n = zeroIn.front();
+        zeroIn.pop_front();
+        result.push_back(n);
+        Node* node = nodes[n];
+        for (auto& e : node->nexts) {
+          nodes[e]->in--;
+          if (nodes[e]->in <= 0) zeroIn.push_back(e);
+        }
+      }
+
+      // recover
+      for (auto &e : nodes) {
+        e.second->in = backup[e.first];
+      }
+      return result;
     }
 
     void bfs(int startId) {
@@ -45,7 +78,23 @@ namespace Graph {
     }
 
     void dfs(int startId) {
-
+      std::cout<<"before dfs..."<<std::endl;
+      std::stack<Node*> st;
+      std::set<int> visited;
+      st.push(nodes[startId]);
+      while (!st.empty()) {
+        Node* n = st.top();
+        st.pop();
+        std::cout<<"visiting node"<<n->id<<"...";
+        visited.insert(n->id);
+        for (auto x : n->nexts) {
+          if (visited.find(x) == visited.end()) {
+            st.push(nodes[x]);
+            break;
+          }
+        }
+      }
+      std::cout<<std::endl;
     }
 
     void display() {
