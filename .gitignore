@@ -7,6 +7,10 @@
 **/.idea/
 /.metadata/
 *.txt
+**/.ccls/
+**/build/
+**/.ccls-cache/
+**/.idea/
 .ccls-cache/*
 .idea/
 .idea/**

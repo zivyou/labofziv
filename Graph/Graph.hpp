@@ -1,4 +1,6 @@
 #include <unordered_map>
+#include <unordered_set>
+#include <queue>
 #include <vector>
 #include <map>
 #include <fstream>
@@ -8,6 +10,7 @@
 #include <stdexcept>
 #include "Node.hpp"
 #include "Edge.hpp"
+#include "UnionFindSet.h"
 
 namespace Graph {
   using namespace std;
@@ -95,6 +98,69 @@ namespace Graph {
         }
       }
       std::cout<<std::endl;
+    }
+   
+    class EdgeCompare {
+      bool reverse;
+    public:
+      EdgeCompare(const bool& revparam=false) {
+        reverse = revparam;
+      }
+
+      bool operator()(const Edge*& lhs, const Edge*& rhs) const {
+        if (reverse) return lhs->weight > rhs->weight;
+        else return lhs->weight < rhs->weight;
+      }
+    };
+
+    // k算法，暂未测试2021/01/06
+    // 不断的选最小的边，如果最小边的两个端点不再一个集合，则是目标边，并合并两个端点所在的集合
+    std::unordered_set<const Edge*> kruskal() {
+      std::priority_queue<const Edge*, std::vector<const Edge*>, Graph::EdgeCompare> pq(EdgeCompare(false)); 
+      for (auto e: edges) {
+        pq.push(e.first);
+      }
+      std::unordered_set<const Edge*> result;
+      UnionFindSet ufs(nodes.size());
+      while (!pq.empty()) {
+        const Edge* edge = pq.top();
+        pq.pop();
+        if (ufs.Find(edge->from->id) != ufs.Find(edge->to->id)) {
+          result.insert(edge);
+          ufs.Union(edge->from->id, edge->to->id);
+        }
+      }
+      return result;
+    }
+
+    
+    // prim算法，暂未测试过。2020/01/06
+    // 先选一个点，再选出这个点关联的最小边，放入待选边集合中。遍历待选边集合，选最小的那条边，如果边那头的点没有访问过，这个边就是目标边。
+    std::unordered_set<const Edge*> prim() {
+      std::priority_queue<const Edge*, std::vector<const Edge*>, Graph::EdgeCompare> pq(EdgeCompare(false));
+      std::unordered_set<const Edge*> result;
+      std::unordered_set<Node*> visitedNodes;
+      std::vector<Node*> allNodes;
+      for (auto n: nodes) {
+        allNodes.push_back(n.second);
+      }
+      visitedNodes.insert(allNodes[0]);
+      for (auto e: allNodes[0]->edges) {
+        pq.push(e); 
+      }
+      while (!pq.empty()) {
+        const Edge* e = pq.top();
+        pq.pop();
+        if (visitedNodes.find(e->to) != visitedNodes.end()) {
+          // 这条边的那头的点没有被访问过
+          visitedNodes.insert(e->to);
+          result.insert(e);
+          for (auto ne : e->to->edges) {
+            pq.push(ne);
+          }
+        }
+      }
+      return result;
     }
 
     void display() {

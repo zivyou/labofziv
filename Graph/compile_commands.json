@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/Users/youziqi/Documents/workspace/labofziv/Graph/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -I/Users/youziqi/Documents/workspace/labofziv/Graph/../UnionFindSet    -std=gnu++11 -o CMakeFiles/graph.dir/test.cpp.o -c /Users/youziqi/Documents/workspace/labofziv/Graph/test.cpp",
+  "file": "/Users/youziqi/Documents/workspace/labofziv/Graph/test.cpp"
+},
+{
+  "directory": "/Users/youziqi/Documents/workspace/labofziv/Graph/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -I/Users/youziqi/Documents/workspace/labofziv/Graph/../UnionFindSet    -std=gnu++11 -o CMakeFiles/graph.dir/Users/youziqi/Documents/workspace/labofziv/UnionFindSet/UnionFindSet.cpp.o -c /Users/youziqi/Documents/workspace/labofziv/UnionFindSet/UnionFindSet.cpp",
+  "file": "/Users/youziqi/Documents/workspace/labofziv/UnionFindSet/UnionFindSet.cpp"
+}
+]

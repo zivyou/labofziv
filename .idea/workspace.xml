@@ -1,8 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="labofziv" targetName="labofziv" />
+      <config projectName="labofziv" targetName="leetcode-cn-249" />
+      <config projectName="labofziv" targetName="leetcode-cn-253" />
+      <config projectName="labofziv" targetName="leetcode-cn-247" />
+      <config projectName="labofziv" targetName="leetcode-cn-246" />
+      <config projectName="labofziv" targetName="leetcode-cn-245" />
+      <config projectName="labofziv" targetName="leetcode-cn-244" />
+      <config projectName="labofziv" targetName="leetcode-cn-243" />
+      <config projectName="labofziv" targetName="leetcode-cn-242" />
+      <config projectName="labofziv" targetName="leetcode-cn-240" />
+      <config projectName="labofziv" targetName="leetcode-cn-350" />
+      <config projectName="labofziv" targetName="leetcode-cn-78" />
+      <config projectName="labofziv" targetName="leetcode-cn-68" />
+      <config projectName="labofziv" targetName="leetcode-cn-254" />
+      <config projectName="labofziv" targetName="leetcode-cn-69" />
+      <config projectName="labofziv" targetName="leetcode-cn-255" />
+      <config projectName="labofziv" targetName="leetcode-cn-256" />
+      <config projectName="labofziv" targetName="leetcode-cn-260" />
+      <config projectName="labofziv" targetName="leetcode-cn-263" />
+      <config projectName="labofziv" targetName="leetcode-cn-236" />
+      <config projectName="labofziv" targetName="leetcode-cn-235" />
+      <config projectName="labofziv" targetName="leetcode-cn-267" />
+      <config projectName="labofziv" targetName="leetcode-cn-232" />
+      <config projectName="labofziv" targetName="leetcode-cn-231" />
+      <config projectName="labofziv" targetName="leetcode-cn-341" />
+      <config projectName="labofziv" targetName="leetcode-cn-371" />
+      <config projectName="labofziv" targetName="leetcode-cn-229" />
+      <config projectName="labofziv" targetName="leetcode-cn-228" />
+      <config projectName="labofziv" targetName="leetcode-cn-226" />
+      <config projectName="labofziv" targetName="leetcode-cn-225" />
+      <config projectName="labofziv" targetName="leetcode-cn-223" />
+      <config projectName="labofziv" targetName="leetcode-cn-222" />
+      <config projectName="labofziv" targetName="leetcode-cn-331" />
+      <config projectName="labofziv" targetName="leetcode-cn-265" />
+      <config projectName="labofziv" targetName="leetcode-cn-328" />
+      <config projectName="labofziv" targetName="leetcode-cn-326" />
+      <config projectName="labofziv" targetName="leetcode-cn-325" />
+      <config projectName="labofziv" targetName="leetcode-cn-323" />
+      <config projectName="labofziv" targetName="leetcode-cn-322" />
+      <config projectName="labofziv" targetName="leetcode-cn-320" />
+      <config projectName="labofziv" targetName="leetcode-cn-319" />
+      <config projectName="labofziv" targetName="leetcode-cn-318" />
+      <config projectName="labofziv" targetName="leetcode-cn-314" />
+      <config projectName="labofziv" targetName="leetcode-cn-313" />
+      <config projectName="labofziv" targetName="leetcode-cn-311" />
+      <config projectName="labofziv" targetName="leetcode-cn-310" />
+      <config projectName="labofziv" targetName="leetcode-cn-380" />
+      <config projectName="labofziv" targetName="leetcode-cn-303" />
+      <config projectName="labofziv" targetName="leetcode-cn-97" />
+      <config projectName="labofziv" targetName="leetcode-cn-96" />
+      <config projectName="labofziv" targetName="leetcode-cn-95" />
+      <config projectName="labofziv" targetName="leetcode-cn-94" />
+      <config projectName="labofziv" targetName="leetcode-cn-93" />
+      <config projectName="labofziv" targetName="leetcode-cn-92" />
+      <config projectName="labofziv" targetName="leetcode-cn-91" />
+      <config projectName="labofziv" targetName="leetcode-cn-90" />
+      <config projectName="labofziv" targetName="leetcode-cn-300" />
+      <config projectName="labofziv" targetName="leetcode-cn-299" />
+      <config projectName="labofziv" targetName="leetcode-cn-298" />
+      <config projectName="labofziv" targetName="leetcode-cn-293" />
+      <config projectName="labofziv" targetName="leetcode-cn-89" />
+      <config projectName="labofziv" targetName="leetcode-cn-88" />
+      <config projectName="labofziv" targetName="leetcode-cn-86" />
+      <config projectName="labofziv" targetName="leetcode-cn-49" />
+      <config projectName="labofziv" targetName="leetcode-cn-83" />
+      <config projectName="labofziv" targetName="leetcode-cn-82" />
+      <config projectName="labofziv" targetName="leetcode-cn-81" />
+      <config projectName="labofziv" targetName="leetcode-cn-80" />
+      <config projectName="labofziv" targetName="leetcode-cn-289" />
+      <config projectName="labofziv" targetName="leetcode-cn-288" />
+      <config projectName="labofziv" targetName="leetcode-cn-287" />
+      <config projectName="labofziv" targetName="leetcode-cn-286" />
+      <config projectName="labofziv" targetName="leetcode-cn-285" />
+      <config projectName="labofziv" targetName="leetcode-cn-283" />
+      <config projectName="labofziv" targetName="leetcode-cn-281" />
+      <config projectName="labofziv" targetName="leetcode-cn-280" />
+      <config projectName="labofziv" targetName="leetcode-cn-77" />
+      <config projectName="labofziv" targetName="leetcode-cn-76" />
+      <config projectName="labofziv" targetName="leetcode-cn-71" />
+      <config projectName="labofziv" targetName="leetcode-cn-115" />
+      <config projectName="labofziv" targetName="leetcode-cn-279" />
+      <config projectName="labofziv" targetName="leetcode-cn-277" />
+      <config projectName="labofziv" targetName="leetcode-cn-384" />
+      <config projectName="labofziv" targetName="leetcode-cn-383" />
+      <config projectName="labofziv" targetName="leetcode-cn-271" />
+      <config projectName="labofziv" targetName="leetcode-cn-381" />
+      <config projectName="labofziv" targetName="leetcode-cn-67" />
+      <config projectName="labofziv" targetName="leetcode-cn-66" />
+      <config projectName="labofziv" targetName="leetcode-cn-64" />
+      <config projectName="labofziv" targetName="leetcode-cn-63" />
+      <config projectName="labofziv" targetName="leetcode-cn-62" />
+      <config projectName="labofziv" targetName="leetcode-cn-61" />
+      <config projectName="labofziv" targetName="leetcode-cn-60" />
+      <config projectName="labofziv" targetName="leetcode-cn-52" />
+      <config projectName="labofziv" targetName="leetcode-cn-234" />
+      <config projectName="labofziv" targetName="leetcode-cn-378" />
+      <config projectName="labofziv" targetName="leetcode-cn-266" />
+      <config projectName="labofziv" targetName="leetcode-cn-376" />
+      <config projectName="labofziv" targetName="leetcode-cn-374" />
+      <config projectName="labofziv" targetName="leetcode-cn-56" />
+      <config projectName="labofziv" targetName="leetcode-cn-261" />
+      <config projectName="labofziv" targetName="leetcode-cn-48" />
+      <config projectName="labofziv" targetName="leetcode-cn-57" />
+      <config projectName="labofziv" targetName="leetcode-cn-79" />
+      <config projectName="labofziv" targetName="leetcode-cn-55" />
+      <config projectName="labofziv" targetName="leetcode-cn-54" />
+      <config projectName="labofziv" targetName="leetcode-cn-59" />
+      <config projectName="labofziv" targetName="leetcode-cn-58" />
+      <config projectName="labofziv" targetName="leetcode-cn-51" />
+      <config projectName="labofziv" targetName="leetcode-cn-50" />
+      <config projectName="labofziv" targetName="leetcode-cn-355" />
+      <config projectName="labofziv" targetName="leetcode-cn-259" />
+      <config projectName="labofziv" targetName="leetcode-cn-357" />
+      <config projectName="labofziv" targetName="leetcode-cn-257" />
+      <config projectName="labofziv" targetName="leetcode-cn-1054" />
+      <config projectName="labofziv" targetName="leetcode-cn-1053" />
+      <config projectName="labofziv" targetName="leetcode-cn-1052" />
+      <config projectName="labofziv" targetName="leetcode-cn-1051" />
+      <config projectName="labofziv" targetName="leetcode-cn-252" />
+      <config projectName="labofziv" targetName="leetcode-cn-251" />
+      <config projectName="labofziv" targetName="leetcode-cn-250" />
+      <config projectName="labofziv" targetName="leetcode-cn-47" />
+      <config projectName="labofziv" targetName="leetcode-cn-46" />
+      <config projectName="labofziv" targetName="leetcode-cn-45" />
+      <config projectName="labofziv" targetName="leetcode-cn-166" />
+      <config projectName="labofziv" targetName="leetcode-cn-43" />
+      <config projectName="labofziv" targetName="leetcode-cn-42" />
+      <config projectName="labofziv" targetName="leetcode-cn-230" />
+      <config projectName="labofziv" targetName="leetcode-cn-270" />
+      <config projectName="labofziv" targetName="leetcode-cn-306" />
+      <config projectName="labofziv" targetName="leetcode-cn-304" />
+      <config projectName="labofziv" targetName="leetcode-cn-377" />
+      <config projectName="labofziv" targetName="leetcode-cn-309" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -12,91 +168,839 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0834077-a5fd-4bda-b6d5-620069d5c694" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="825" />
-  </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="labofziv" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="labofziv" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1eiSTWEIILVdGduV1JZJFSfsKPR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.labofziv">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
-      <envs />
+  <component name="RunManager" selected="CMake Application.Build All">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="labofziv" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="labofziv" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="labofziv">
-      <envs />
+    <configuration name="leetcode-cn-1051" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-1051" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-1051">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
-      <item index="1" class="java.lang.String" itemvalue="Application.labofziv" />
+    <configuration name="leetcode-cn-1052" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-1052" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-1052">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-1053" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-1053" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-1053">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-1054" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-1054" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-1054">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-115" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-115" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-115">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-166" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-166" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-166">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-222" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-222" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-222">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-223" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-223" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-223">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-225" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-225" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-225">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-226" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-226" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-226">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-228" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-228" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-228">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-229" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-229" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-229">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-230" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-230" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-230">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-231" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-231" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-231">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-232" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-232" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-232">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-234" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-234" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-234">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-235" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-235" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-235">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-236" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-236" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-236">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-240" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-240" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-240">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-242" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-242" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-242">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-243" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-243" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-243">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-244" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-244" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-244">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-245" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-245" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-245">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-246" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-246" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-246">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-247" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-247" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-247">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-249" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-249" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-249">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-250" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-250" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-250">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-251" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-251" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-251">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-252" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-252" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-252">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-253" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-253" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-253">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-254" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-254" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-254">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-255" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-255" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-255">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-256" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-256" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-256">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-257" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-257" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-257">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-259" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-259" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-259">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-260" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-260" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-260">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-261" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-261" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-261">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-263" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-263" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-263">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-265" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-265" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-265">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-266" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-266" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-266">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-267" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-267" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-267">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-270" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-270" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-270">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-271" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-271" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-271">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-277" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-277" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-277">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-279" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-279" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-279">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-280" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-280" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-280">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-281" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-281" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-281">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-283" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-283" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-283">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-285" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-285" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-285">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-286" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-286" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-286">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-287" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-287" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-287">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-288" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-288" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-288">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-289" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-289" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-289">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-293" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-293" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-293">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-298" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-298" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-298">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-299" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-299" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-299">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-300" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-300" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-300">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-303" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-303" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-303">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-304" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-304" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-304">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-306" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-306" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-306">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-309" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-309" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-309">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-310" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-310" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-310">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-311" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-311" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-311">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-313" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-313" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-313">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-314" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-314" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-314">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-318" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-318" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-318">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-319" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-319" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-319">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-320" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-320" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-320">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-322" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-322" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-322">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-323" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-323" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-323">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-325" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-325" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-325">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-326" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-326" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-326">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-328" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-328" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-328">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-331" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-331" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-331">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-341" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-341" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-341">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-350" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-350" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-350">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-355" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-355" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-355">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-357" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-357" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-357">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-371" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-371" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-371">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-374" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-374" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-374">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-376" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-376" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-376">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-377" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-377" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-377">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-378" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-378" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-378">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-380" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-380" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-380">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-381" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-381" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-381">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-383" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-383" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-383">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-384" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-384" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-384">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-42" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-42" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-42">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-43" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-43" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-43">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-45" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-45" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-45">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-46" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-46" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-46">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-47" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-47" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-47">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-48" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-48" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-48">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-49" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-49" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-49">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-50" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-50" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-50">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-51" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-51" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-51">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-52" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-52" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-52">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-54" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-54" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-54">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-55" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-55" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-55">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-56" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-56" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-56">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-57" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-57" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-57">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-58" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-58" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-58">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-59" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-59" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-59">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-60" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-60" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-60">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-61" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-61" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-61">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-62" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-62" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-62">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-63" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-63" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-63">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-64" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-64" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-66" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-66" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-66">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-67" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-67" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-67">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-68" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-68" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-68">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-69" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-69" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-69">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-71" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-71" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-71">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-76" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-76" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-76">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-77" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-77" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-77">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-78" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-78" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-78">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-79" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-79" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-79">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-80" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-80" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-80">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-81" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-81" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-81">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-82" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-82" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-82">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-83" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-83" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-83">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-86" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-86" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-86">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-88" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-88" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-88">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-89" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-89" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-89">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-90" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-90" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-90">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-91" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-91" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-91">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-92" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-92" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-92">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-93" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-93" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-93">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-94" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-94" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-94">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-95" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-95" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-95">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-96" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-96" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-96">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode-cn-97" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-97" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-97">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Build All" />
+      <item itemvalue="CMake Application.leetcode-cn-1051" />
+      <item itemvalue="CMake Application.leetcode-cn-1052" />
+      <item itemvalue="CMake Application.leetcode-cn-1053" />
+      <item itemvalue="CMake Application.leetcode-cn-1054" />
+      <item itemvalue="CMake Application.leetcode-cn-115" />
+      <item itemvalue="CMake Application.leetcode-cn-166" />
+      <item itemvalue="CMake Application.leetcode-cn-222" />
+      <item itemvalue="CMake Application.leetcode-cn-223" />
+      <item itemvalue="CMake Application.leetcode-cn-225" />
+      <item itemvalue="CMake Application.leetcode-cn-226" />
+      <item itemvalue="CMake Application.leetcode-cn-228" />
+      <item itemvalue="CMake Application.leetcode-cn-229" />
+      <item itemvalue="CMake Application.leetcode-cn-230" />
+      <item itemvalue="CMake Application.leetcode-cn-231" />
+      <item itemvalue="CMake Application.leetcode-cn-232" />
+      <item itemvalue="CMake Application.leetcode-cn-234" />
+      <item itemvalue="CMake Application.leetcode-cn-235" />
+      <item itemvalue="CMake Application.leetcode-cn-236" />
+      <item itemvalue="CMake Application.leetcode-cn-240" />
+      <item itemvalue="CMake Application.leetcode-cn-242" />
+      <item itemvalue="CMake Application.leetcode-cn-243" />
+      <item itemvalue="CMake Application.leetcode-cn-244" />
+      <item itemvalue="CMake Application.leetcode-cn-245" />
+      <item itemvalue="CMake Application.leetcode-cn-246" />
+      <item itemvalue="CMake Application.leetcode-cn-247" />
+      <item itemvalue="CMake Application.leetcode-cn-249" />
+      <item itemvalue="CMake Application.leetcode-cn-250" />
+      <item itemvalue="CMake Application.leetcode-cn-251" />
+      <item itemvalue="CMake Application.leetcode-cn-252" />
+      <item itemvalue="CMake Application.leetcode-cn-253" />
+      <item itemvalue="CMake Application.leetcode-cn-254" />
+      <item itemvalue="CMake Application.leetcode-cn-255" />
+      <item itemvalue="CMake Application.leetcode-cn-256" />
+      <item itemvalue="CMake Application.leetcode-cn-257" />
+      <item itemvalue="CMake Application.leetcode-cn-259" />
+      <item itemvalue="CMake Application.leetcode-cn-260" />
+      <item itemvalue="CMake Application.leetcode-cn-261" />
+      <item itemvalue="CMake Application.leetcode-cn-263" />
+      <item itemvalue="CMake Application.leetcode-cn-265" />
+      <item itemvalue="CMake Application.leetcode-cn-266" />
+      <item itemvalue="CMake Application.leetcode-cn-267" />
+      <item itemvalue="CMake Application.leetcode-cn-270" />
+      <item itemvalue="CMake Application.leetcode-cn-271" />
+      <item itemvalue="CMake Application.leetcode-cn-277" />
+      <item itemvalue="CMake Application.leetcode-cn-279" />
+      <item itemvalue="CMake Application.leetcode-cn-280" />
+      <item itemvalue="CMake Application.leetcode-cn-281" />
+      <item itemvalue="CMake Application.leetcode-cn-283" />
+      <item itemvalue="CMake Application.leetcode-cn-285" />
+      <item itemvalue="CMake Application.leetcode-cn-286" />
+      <item itemvalue="CMake Application.leetcode-cn-287" />
+      <item itemvalue="CMake Application.leetcode-cn-288" />
+      <item itemvalue="CMake Application.leetcode-cn-289" />
+      <item itemvalue="CMake Application.leetcode-cn-293" />
+      <item itemvalue="CMake Application.leetcode-cn-298" />
+      <item itemvalue="CMake Application.leetcode-cn-299" />
+      <item itemvalue="CMake Application.leetcode-cn-300" />
+      <item itemvalue="CMake Application.leetcode-cn-303" />
+      <item itemvalue="CMake Application.leetcode-cn-304" />
+      <item itemvalue="CMake Application.leetcode-cn-306" />
+      <item itemvalue="CMake Application.leetcode-cn-309" />
+      <item itemvalue="CMake Application.leetcode-cn-310" />
+      <item itemvalue="CMake Application.leetcode-cn-311" />
+      <item itemvalue="CMake Application.leetcode-cn-313" />
+      <item itemvalue="CMake Application.leetcode-cn-314" />
+      <item itemvalue="CMake Application.leetcode-cn-318" />
+      <item itemvalue="CMake Application.leetcode-cn-319" />
+      <item itemvalue="CMake Application.leetcode-cn-320" />
+      <item itemvalue="CMake Application.leetcode-cn-322" />
+      <item itemvalue="CMake Application.leetcode-cn-323" />
+      <item itemvalue="CMake Application.leetcode-cn-325" />
+      <item itemvalue="CMake Application.leetcode-cn-326" />
+      <item itemvalue="CMake Application.leetcode-cn-328" />
+      <item itemvalue="CMake Application.leetcode-cn-331" />
+      <item itemvalue="CMake Application.leetcode-cn-341" />
+      <item itemvalue="CMake Application.leetcode-cn-350" />
+      <item itemvalue="CMake Application.leetcode-cn-355" />
+      <item itemvalue="CMake Application.leetcode-cn-357" />
+      <item itemvalue="CMake Application.leetcode-cn-371" />
+      <item itemvalue="CMake Application.leetcode-cn-374" />
+      <item itemvalue="CMake Application.leetcode-cn-376" />
+      <item itemvalue="CMake Application.leetcode-cn-377" />
+      <item itemvalue="CMake Application.leetcode-cn-378" />
+      <item itemvalue="CMake Application.leetcode-cn-380" />
+      <item itemvalue="CMake Application.leetcode-cn-381" />
+      <item itemvalue="CMake Application.leetcode-cn-383" />
+      <item itemvalue="CMake Application.leetcode-cn-384" />
+      <item itemvalue="CMake Application.leetcode-cn-42" />
+      <item itemvalue="CMake Application.leetcode-cn-43" />
+      <item itemvalue="CMake Application.leetcode-cn-45" />
+      <item itemvalue="CMake Application.leetcode-cn-46" />
+      <item itemvalue="CMake Application.leetcode-cn-47" />
+      <item itemvalue="CMake Application.leetcode-cn-48" />
+      <item itemvalue="CMake Application.leetcode-cn-49" />
+      <item itemvalue="CMake Application.leetcode-cn-50" />
+      <item itemvalue="CMake Application.leetcode-cn-51" />
+      <item itemvalue="CMake Application.leetcode-cn-52" />
+      <item itemvalue="CMake Application.leetcode-cn-54" />
+      <item itemvalue="CMake Application.leetcode-cn-55" />
+      <item itemvalue="CMake Application.leetcode-cn-56" />
+      <item itemvalue="CMake Application.leetcode-cn-57" />
+      <item itemvalue="CMake Application.leetcode-cn-58" />
+      <item itemvalue="CMake Application.leetcode-cn-59" />
+      <item itemvalue="CMake Application.leetcode-cn-60" />
+      <item itemvalue="CMake Application.leetcode-cn-61" />
+      <item itemvalue="CMake Application.leetcode-cn-62" />
+      <item itemvalue="CMake Application.leetcode-cn-63" />
+      <item itemvalue="CMake Application.leetcode-cn-64" />
+      <item itemvalue="CMake Application.leetcode-cn-66" />
+      <item itemvalue="CMake Application.leetcode-cn-67" />
+      <item itemvalue="CMake Application.leetcode-cn-68" />
+      <item itemvalue="CMake Application.leetcode-cn-69" />
+      <item itemvalue="CMake Application.leetcode-cn-71" />
+      <item itemvalue="CMake Application.leetcode-cn-76" />
+      <item itemvalue="CMake Application.leetcode-cn-77" />
+      <item itemvalue="CMake Application.leetcode-cn-78" />
+      <item itemvalue="CMake Application.leetcode-cn-79" />
+      <item itemvalue="CMake Application.leetcode-cn-80" />
+      <item itemvalue="CMake Application.leetcode-cn-81" />
+      <item itemvalue="CMake Application.leetcode-cn-82" />
+      <item itemvalue="CMake Application.leetcode-cn-83" />
+      <item itemvalue="CMake Application.leetcode-cn-86" />
+      <item itemvalue="CMake Application.leetcode-cn-88" />
+      <item itemvalue="CMake Application.leetcode-cn-89" />
+      <item itemvalue="CMake Application.leetcode-cn-90" />
+      <item itemvalue="CMake Application.leetcode-cn-91" />
+      <item itemvalue="CMake Application.leetcode-cn-92" />
+      <item itemvalue="CMake Application.leetcode-cn-93" />
+      <item itemvalue="CMake Application.leetcode-cn-94" />
+      <item itemvalue="CMake Application.leetcode-cn-95" />
+      <item itemvalue="CMake Application.leetcode-cn-96" />
+      <item itemvalue="CMake Application.leetcode-cn-97" />
     </list>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -110,68 +1014,37 @@
       <updated>1529472622461</updated>
       <workItem from="1529472625032" duration="327000" />
       <workItem from="1529473013708" duration="50000" />
+      <workItem from="1594802931568" duration="401000" />
+      <workItem from="1595213360037" duration="185000" />
+      <workItem from="1595250276736" duration="177000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="377000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="825" extended-state="6" />
-    <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24305555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30677292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/newcoder-4045/newcoder-4045.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newcoder-4045/newcoder-4045.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
