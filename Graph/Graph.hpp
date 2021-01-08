@@ -118,6 +118,7 @@ namespace Graph {
     class EdgeCompare {
       bool reverse;
     public:
+      // 默认false大根堆
       EdgeCompare(const bool& revparam=false) {
         reverse = revparam;
       }
@@ -131,7 +132,7 @@ namespace Graph {
     // k算法，暂未测试2021/01/06
     // 不断的选最小的边，如果最小边的两个端点不再一个集合，则是目标边，并合并两个端点所在的集合
     std::unordered_set<const Edge*> kruskal() {
-      std::priority_queue<const Edge*, std::vector<const Edge*>, Graph::EdgeCompare> pq(EdgeCompare(false)); 
+      std::priority_queue<const Edge*, std::vector<const Edge*>, Graph::EdgeCompare> pq(EdgeCompare(true)); 
       for (auto e: edges) {
         pq.push(e.first);
       }
@@ -149,10 +150,10 @@ namespace Graph {
     }
 
     
-    // prim算法，暂未测试过。2020/01/06
+    // prim算法，测试通过。2020/01/09
     // 先选一个点，再选出这个点关联的最小边，放入待选边集合中。遍历待选边集合，选最小的那条边，如果边那头的点没有访问过，这个边就是目标边。
     std::unordered_set<const Edge*> prim() {
-      std::priority_queue<const Edge*, std::vector<const Edge*>, Graph::EdgeCompare> pq(EdgeCompare(false));
+      std::priority_queue<const Edge*, std::vector<const Edge*>, Graph::EdgeCompare> pq(EdgeCompare(true));
       std::unordered_set<const Edge*> result;
       std::unordered_set<Node*> visitedNodes;
       std::vector<Node*> allNodes;
@@ -166,7 +167,7 @@ namespace Graph {
       while (!pq.empty()) {
         const Edge* e = pq.top();
         pq.pop();
-        if (visitedNodes.find(e->to) != visitedNodes.end()) {
+        if (visitedNodes.find(e->to) == visitedNodes.end()) {
           // 这条边的那头的点没有被访问过
           visitedNodes.insert(e->to);
           result.insert(e);
@@ -264,6 +265,38 @@ namespace Graph {
         }
       }
 
+      return graph;
+    }
+
+    static Graph* build1() {
+      Graph* graph = new Graph();
+      int c, n, m;
+      cin>>c>>n>>m;
+      int i=0;
+      std::unordered_map<int, Node*> nodes;
+      while (i++<n) {
+        int f, t, w;
+        Node* from; Node* to;
+        cin>>f>>t>>w;
+        if (nodes.find(f) == nodes.end()) {
+          from = new Node(f);
+          nodes[f] = from;
+        } else {
+          from = nodes[f];
+        }
+        if (nodes.find(t) == nodes.end()) {
+          to = new Node(t);
+          nodes[t] = to;
+        } else {
+          to = nodes[t];
+        }
+        Edge* edge = new Edge(w, from, to);
+        graph->addEdge(edge);
+        std::cout<<"edges amount"<<graph->edges.size()<<std::endl;
+        Edge* edge2 = new Edge(w, to, from);
+        graph->addEdge(edge2);
+        std::cout<<"edges amount"<<graph->edges.size()<<std::endl;
+      }
       return graph;
     }
 
