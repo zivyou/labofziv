@@ -6,7 +6,7 @@
 #include "UnionFindSet.h"
 
 UnionFindSet::UnionFindSet(int range) {
-  for (int i=0; i<range; i++) {
+  for (int i=0; i<=range; i++) {
     parents_.push_back(i);
     ranks_.push_back(0);
   }
