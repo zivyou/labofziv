@@ -19,6 +19,21 @@ namespace Graph {
   private:
     std::unordered_map<Edge *, bool> edges;
     std::map<int, Node*> nodes;
+    const Node* getMinLengthNodeInUnvisitedNodes(const std::unordered_map<const Node*, int>& result,
+        const std::unordered_set<const Node*>& visitedNodes) {
+      int distance = INT_MAX;
+      const Node* n = nullptr;
+      for (auto e : result) {
+        if (e.second <= distance) {
+          if (visitedNodes.find(e.first) == visitedNodes.end()) {
+            distance = e.second;
+            n = e.first;
+          }
+        }
+      }
+
+      return n;
+    }
   public:
     Graph() {};
     void addNode(Node* n) {
@@ -159,6 +174,36 @@ namespace Graph {
             pq.push(ne);
           }
         }
+      }
+      return result;
+    }
+
+
+    // dijkstra单源最短路径算法，2021-01-08暂未测试
+    // 将点分成访问过的和未访问过的两组，每次从未访问过的点中选一个，尝试选这个点，选完之后更新这个点的邻接边那头的点的距离
+    std::unordered_map<const Node*, int> dijkstra(const Node* n) {
+      std::unordered_map<const Node*, int> result;
+      for (auto nt: nodes) {
+        if (nt.second == n) {
+          result[nt.second] = 0;
+        } else {
+          result[nt.second] = INT_MAX;
+        }
+      }
+
+      std::unordered_set<const Node*> visitedNodes;
+      const Node* node = getMinLengthNodeInUnvisitedNodes(result, visitedNodes);
+      while (node) {
+        for (auto e : node->edges) {
+          const Node* to = e->to;
+          if (visitedNodes.find(to) == visitedNodes.end()) {
+            result[to] = result[node] + e->weight;
+          } else {
+            result[to] = min(result[to], result[node]+e->weight);
+          }
+        }
+        visitedNodes.insert(node);
+        node = getMinLengthNodeInUnvisitedNodes(result, visitedNodes);
       }
       return result;
     }
