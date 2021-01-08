@@ -129,7 +129,7 @@ namespace Graph {
       }
     };
 
-    // k算法，暂未测试2021/01/06
+    // k算法，已测试2021/01/09
     // 不断的选最小的边，如果最小边的两个端点不再一个集合，则是目标边，并合并两个端点所在的集合
     std::unordered_set<const Edge*> kruskal() {
       std::priority_queue<const Edge*, std::vector<const Edge*>, Graph::EdgeCompare> pq(EdgeCompare(true)); 
