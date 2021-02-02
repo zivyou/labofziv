@@ -17,23 +17,27 @@
      15
 */
 
+void sink(int* a, int i, int n) {
+  
+   int current = a[i];
+   int  child = 2 * i + 1;
+   while (child < n){
+       if (child < n-1 && a[child]<a[child+1])
+           child += 1; /* we choose the bigger one of two childs */
+       if (a[child] <= current)
+           break;
+
+       a[(child-1)/2] = a[child];
+       child = child * 2 + 1; /*  */
+   }
+   a[(child-1)/2] = current;
+}
+
 void build_max_heap(int *a, int n)
 {
-    int i; int current;
-    int child;
+    int i; ;
     for (i = (n-2)/2; i>=0; i--){
-        current = a[i];
-        child = 2 * i + 1;
-        while (child < n){
-            if (child < n-1 && a[child]<a[child+1])
-                child += 1; /* we choose the bigger one of two childs */
-            if (a[child] <= current)
-                break;
-
-            a[(child-1)/2] = a[child];
-            child = child * 2 + 1; /*  */
-        }
-        a[(child-1)/2] = current;
+      sink(a, i, n);
     }
 }
 
@@ -46,7 +50,7 @@ void heap_sort(int *a, int n)
         tmp = a[0];
         a[0] = a[i];
         a[i] = tmp;
-        build_max_heap(a, i);
+        sink(a, i, n);
     }
 }
 
