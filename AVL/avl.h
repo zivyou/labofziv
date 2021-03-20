@@ -5,6 +5,10 @@
 
 using namespace std;
 
+/**
+ * AVL树：Created by G. M. Adelson & Evgenii Landis, 是一种(绝对)平衡二叉搜索树
+ */
+
 template<typename T>
 class avlNode{
     T element;
