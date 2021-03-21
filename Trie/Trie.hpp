@@ -9,8 +9,8 @@
 class TrieNode {
 private:
 public:
-  int p;
-  int e;
+  int p; // 中途路过
+  int e; // 以。。为结尾
   TrieNode* next[26*2];
   TrieNode() : p(0), e(0) {
     for (int i=0; i < 26*2; i++) next[i] = nullptr;
