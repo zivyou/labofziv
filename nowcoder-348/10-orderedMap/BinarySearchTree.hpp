@@ -12,7 +12,7 @@ struct Node {
 
 template<typename K, typename V>
 class BinarySearchTree {
-private:
+protected:
   Node<K, V>* root;
   int size;
 public:
@@ -31,9 +31,18 @@ public:
      * */
   }
 
-  Node<K, V>& successor(const Node<K, V>& node) {
+  // 找后继节点
+  Node<K, V>* successor(const Node<K, V>& node) {
     /**
      * 1. 无右孩子；2。有右孩子，且右孩子无左孩子； 3。有右孩子，且右孩子有左孩子
      */
+
+    if (!node.right) return nullptr;
+
+  }
+
+  // 找前驱节点
+  Node<K, V>* predecessor(const Node<K, V>& node) {
+
   }
 };
