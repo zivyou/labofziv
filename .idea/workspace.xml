@@ -159,6 +159,143 @@
       <config projectName="labofziv" targetName="leetcode-cn-304" />
       <config projectName="labofziv" targetName="leetcode-cn-377" />
       <config projectName="labofziv" targetName="leetcode-cn-309" />
+=======
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="labofziv" targetName="leetcode-cn-293" />
+      <config projectName="labofziv" targetName="leetcode-cn-328" />
+      <config projectName="labofziv" targetName="leetcode-cn-325" />
+      <config projectName="labofziv" targetName="leetcode-cn-326" />
+      <config projectName="labofziv" targetName="leetcode-cn-320" />
+      <config projectName="labofziv" targetName="leetcode-cn-287" />
+      <config projectName="labofziv" targetName="leetcode-cn-166" />
+      <config projectName="labofziv" targetName="leetcode-cn-288" />
+      <config projectName="labofziv" targetName="leetcode-cn-322" />
+      <config projectName="labofziv" targetName="leetcode-cn-289" />
+      <config projectName="labofziv" targetName="leetcode-cn-323" />
+      <config projectName="labofziv" targetName="leetcode-cn-283" />
+      <config projectName="labofziv" targetName="leetcode-cn-285" />
+      <config projectName="labofziv" targetName="leetcode-cn-286" />
+      <config projectName="labofziv" targetName="leetcode-cn-280" />
+      <config projectName="labofziv" targetName="leetcode-cn-281" />
+      <config projectName="labofziv" targetName="leetcode-cn-318" />
+      <config projectName="labofziv" targetName="leetcode-cn-319" />
+      <config projectName="labofziv" targetName="leetcode-cn-313" />
+      <config projectName="labofziv" targetName="leetcode-cn-314" />
+      <config projectName="labofziv" targetName="leetcode-cn-310" />
+      <config projectName="labofziv" targetName="leetcode-cn-277" />
+      <config projectName="labofziv" targetName="leetcode-cn-311" />
+      <config projectName="labofziv" targetName="leetcode-cn-279" />
+      <config projectName="labofziv" targetName="leetcode-cn-91" />
+      <config projectName="labofziv" targetName="leetcode-cn-90" />
+      <config projectName="labofziv" targetName="leetcode-cn-229" />
+      <config projectName="labofziv" targetName="leetcode-cn-89" />
+      <config projectName="labofziv" targetName="leetcode-cn-225" />
+      <config projectName="labofziv" targetName="leetcode-cn-226" />
+      <config projectName="labofziv" targetName="leetcode-cn-228" />
+      <config projectName="labofziv" targetName="leetcode-cn-222" />
+      <config projectName="labofziv" targetName="leetcode-cn-83" />
+      <config projectName="labofziv" targetName="leetcode-cn-223" />
+      <config projectName="labofziv" targetName="leetcode-cn-82" />
+      <config projectName="labofziv" targetName="leetcode-cn-81" />
+      <config projectName="labofziv" targetName="leetcode-cn-88" />
+      <config projectName="labofziv" targetName="leetcode-cn-86" />
+      <config projectName="labofziv" targetName="leetcode-cn-341" />
+      <config projectName="labofziv" targetName="leetcode-cn-331" />
+      <config projectName="labofziv" targetName="leetcode-cn-95" />
+      <config projectName="labofziv" targetName="leetcode-cn-298" />
+      <config projectName="labofziv" targetName="leetcode-cn-94" />
+      <config projectName="labofziv" targetName="leetcode-cn-299" />
+      <config projectName="labofziv" targetName="leetcode-cn-93" />
+      <config projectName="labofziv" targetName="leetcode-cn-92" />
+      <config projectName="labofziv" targetName="leetcode-cn-97" />
+      <config projectName="labofziv" targetName="leetcode-cn-96" />
+      <config projectName="labofziv" targetName="leetcode-cn-69" />
+      <config projectName="labofziv" targetName="leetcode-cn-68" />
+      <config projectName="labofziv" targetName="leetcode-cn-67" />
+      <config projectName="labofziv" targetName="leetcode-cn-247" />
+      <config projectName="labofziv" targetName="leetcode-cn-249" />
+      <config projectName="labofziv" targetName="leetcode-cn-243" />
+      <config projectName="labofziv" targetName="leetcode-cn-62" />
+      <config projectName="labofziv" targetName="leetcode-cn-244" />
+      <config projectName="labofziv" targetName="leetcode-cn-61" />
+      <config projectName="labofziv" targetName="leetcode-cn-245" />
+      <config projectName="labofziv" targetName="leetcode-cn-60" />
+      <config projectName="labofziv" targetName="leetcode-cn-246" />
+      <config projectName="labofziv" targetName="leetcode-cn-66" />
+      <config projectName="labofziv" targetName="leetcode-cn-240" />
+      <config projectName="labofziv" targetName="leetcode-cn-64" />
+      <config projectName="labofziv" targetName="leetcode-cn-242" />
+      <config projectName="labofziv" targetName="leetcode-cn-63" />
+      <config projectName="labofziv" targetName="leetcode-cn-80" />
+      <config projectName="labofziv" targetName="leetcode-cn-79" />
+      <config projectName="labofziv" targetName="leetcode-cn-78" />
+      <config projectName="labofziv" targetName="leetcode-cn-236" />
+      <config projectName="labofziv" targetName="leetcode-cn-115" />
+      <config projectName="labofziv" targetName="leetcode-cn-357" />
+      <config projectName="labofziv" targetName="leetcode-cn-232" />
+      <config projectName="labofziv" targetName="leetcode-cn-234" />
+      <config projectName="labofziv" targetName="leetcode-cn-71" />
+      <config projectName="labofziv" targetName="leetcode-cn-355" />
+      <config projectName="labofziv" targetName="leetcode-cn-235" />
+      <config projectName="labofziv" targetName="leetcode-cn-77" />
+      <config projectName="labofziv" targetName="leetcode-cn-350" />
+      <config projectName="labofziv" targetName="leetcode-cn-76" />
+      <config projectName="labofziv" targetName="leetcode-cn-230" />
+      <config projectName="labofziv" targetName="leetcode-cn-231" />
+      <config projectName="labofziv" targetName="leetcode-cn-270" />
+      <config projectName="labofziv" targetName="leetcode-cn-271" />
+      <config projectName="labofziv" targetName="leetcode-cn-48" />
+      <config projectName="labofziv" targetName="leetcode-cn-306" />
+      <config projectName="labofziv" targetName="leetcode-cn-47" />
+      <config projectName="labofziv" targetName="leetcode-cn-46" />
+      <config projectName="labofziv" targetName="leetcode-cn-45" />
+      <config projectName="labofziv" targetName="leetcode-cn-309" />
+      <config projectName="labofziv" targetName="leetcode-cn-303" />
+      <config projectName="labofziv" targetName="leetcode-cn-304" />
+      <config projectName="labofziv" targetName="leetcode-cn-49" />
+      <config projectName="labofziv" targetName="leetcode-cn-265" />
+      <config projectName="labofziv" targetName="leetcode-cn-266" />
+      <config projectName="labofziv" targetName="leetcode-cn-300" />
+      <config projectName="labofziv" targetName="leetcode-cn-267" />
+      <config projectName="labofziv" targetName="leetcode-cn-261" />
+      <config projectName="labofziv" targetName="leetcode-cn-43" />
+      <config projectName="labofziv" targetName="leetcode-cn-383" />
+      <config projectName="labofziv" targetName="leetcode-cn-263" />
+      <config projectName="labofziv" targetName="leetcode-cn-384" />
+      <config projectName="labofziv" targetName="leetcode-cn-42" />
+      <config projectName="labofziv" targetName="leetcode-cn-385" />
+      <config projectName="labofziv" targetName="leetcode-cn-380" />
+      <config projectName="labofziv" targetName="leetcode-cn-260" />
+      <config projectName="labofziv" targetName="leetcode-cn-381" />
+      <config projectName="labofziv" targetName="leetcode-cn-59" />
+      <config projectName="labofziv" targetName="leetcode-cn-58" />
+      <config projectName="labofziv" targetName="leetcode-cn-57" />
+      <config projectName="labofziv" targetName="leetcode-cn-56" />
+      <config projectName="labofziv" targetName="leetcode-cn-259" />
+      <config projectName="labofziv" targetName="leetcode-cn-254" />
+      <config projectName="labofziv" targetName="leetcode-cn-51" />
+      <config projectName="labofziv" targetName="leetcode-cn-255" />
+      <config projectName="labofziv" targetName="leetcode-cn-376" />
+      <config projectName="labofziv" targetName="leetcode-cn-50" />
+      <config projectName="labofziv" targetName="leetcode-cn-256" />
+      <config projectName="labofziv" targetName="leetcode-cn-377" />
+      <config projectName="labofziv" targetName="leetcode-cn-1053" />
+      <config projectName="labofziv" targetName="leetcode-cn-378" />
+      <config projectName="labofziv" targetName="leetcode-cn-257" />
+      <config projectName="labofziv" targetName="leetcode-cn-1054" />
+      <config projectName="labofziv" targetName="leetcode-cn-55" />
+      <config projectName="labofziv" targetName="leetcode-cn-1051" />
+      <config projectName="labofziv" targetName="leetcode-cn-250" />
+      <config projectName="labofziv" targetName="leetcode-cn-371" />
+      <config projectName="labofziv" targetName="leetcode-cn-54" />
+      <config projectName="labofziv" targetName="leetcode-cn-1052" />
+      <config projectName="labofziv" targetName="leetcode-cn-251" />
+      <config projectName="labofziv" targetName="leetcode-cn-252" />
+      <config projectName="labofziv" targetName="leetcode-cn-253" />
+      <config projectName="labofziv" targetName="leetcode-cn-374" />
+      <config projectName="labofziv" targetName="leetcode-cn-52" />
+>>>>>>> Stashed changes
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -168,6 +305,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0834077-a5fd-4bda-b6d5-620069d5c694" name="Default" comment="">
+<<<<<<< Updated upstream
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,7 +328,11 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< Updated upstream
   <component name="ProjectId" id="1eiSTWEIILVdGduV1JZJFSfsKPR" />
+=======
+  <component name="ProjectId" id="1et8HPUZlnXewq8IPZVCVr9lqOx" />
+>>>>>>> Stashed changes
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -530,6 +675,10 @@
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
+<<<<<<< Updated upstream
+    </configuration>
+    <configuration name="leetcode-cn-318" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-318" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-318">
+=======
     </configuration>
     <configuration name="leetcode-cn-318" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-318" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-318">
       <method v="2">
@@ -537,10 +686,19 @@
       </method>
     </configuration>
     <configuration name="leetcode-cn-319" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-319" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-319">
+>>>>>>> Stashed changes
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+<<<<<<< Updated upstream
+    <configuration name="leetcode-cn-319" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-319" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-319">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+=======
+>>>>>>> Stashed changes
     <configuration name="leetcode-cn-320" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-320" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-320">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -641,6 +799,14 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+<<<<<<< Updated upstream
+=======
+    <configuration name="leetcode-cn-385" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-385" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-385">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+>>>>>>> Stashed changes
     <configuration name="leetcode-cn-42" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labofziv" TARGET_NAME="leetcode-cn-42" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labofziv" RUN_TARGET_NAME="leetcode-cn-42">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -955,6 +1121,10 @@
       <item itemvalue="CMake Application.leetcode-cn-381" />
       <item itemvalue="CMake Application.leetcode-cn-383" />
       <item itemvalue="CMake Application.leetcode-cn-384" />
+<<<<<<< Updated upstream
+=======
+      <item itemvalue="CMake Application.leetcode-cn-385" />
+>>>>>>> Stashed changes
       <item itemvalue="CMake Application.leetcode-cn-42" />
       <item itemvalue="CMake Application.leetcode-cn-43" />
       <item itemvalue="CMake Application.leetcode-cn-45" />
@@ -1017,12 +1187,9 @@
       <workItem from="1594802931568" duration="401000" />
       <workItem from="1595213360037" duration="185000" />
       <workItem from="1595250276736" duration="177000" />
-    </task>
-    <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
-  </component>
+      <workItem from="1595129445796" duration="13006000" />
+      <workItem from="1605714789767" duration="203000" />
+      <workItem from="1605945156084" duration="14066000" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
