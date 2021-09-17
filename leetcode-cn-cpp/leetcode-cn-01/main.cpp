@@ -2,6 +2,10 @@
 #include <vector>
 using namespace std;
 
+
+/**
+ * 用hashmap查找
+ */
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {

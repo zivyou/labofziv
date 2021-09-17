@@ -10,7 +10,7 @@
 #include <stdexcept>
 #include "Node.hpp"
 #include "Edge.hpp"
-#include "UnionFindSet.h"
+#include "../UnionFindSet/UnionFindSet.h"
 
 namespace Graph {
   using namespace std;
