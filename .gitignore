@@ -10,6 +10,7 @@
 **/build/
 **/.ccls-cache/
 **/.idea/
+**/.DS_Store
 .ccls-cache/*
 .idea/*
 .vscode/*
