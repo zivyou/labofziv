@@ -3,6 +3,16 @@
 
 using namespace std;
 
+/**
+ * 给你一个字符串 s，找到 s 中最长的回文子串。
+ */
+
+
+/**
+ * 从中间的某一个点开始，往两边扩散
+ * 分成两种情况；
+ * [... X1, X1, ....]和[...X1...]两种扩散方式
+ */
 class Solution {
 public:
     string longestPalindrome(string s) {
