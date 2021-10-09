@@ -4,6 +4,7 @@
 #include <vector>
 #include <iostream>
 #include <stack>
+#include "../Tree/BinaryTree.hpp"
 
 using namespace std;
 
@@ -19,6 +20,7 @@ using namespace std;
  *
  */
 
+/*
 template<typename T>
 class avlNode{
 public:
@@ -38,9 +40,13 @@ public:
       rightChild = nullptr;
     }
 };
+*/
 
 template<typename T>
-using avlTree = avlNode<T>;
+using avlNode = Node<T>;
+
+template<typename T>
+using avlTree = Node<T>;
 
 
 template<typename T>
