@@ -8,15 +8,15 @@
 template<typename T>
 class Node {
 public:
-  T element;
-  Node *leftChild;
-  Node *rightChild;
+  T val;
+  Node *left;
+  Node *right;
 
 public:
   Node(T v) {
-    this->element = v;
-    this->leftChild = nullptr;
-    this->rightChild = nullptr;
+    this->val = v;
+    this->left = nullptr;
+    this->right = nullptr;
   }
 
 
@@ -38,22 +38,22 @@ public:
     while (!q.empty()) {
       Node<T> *n = q.front();
       q.pop();
-      data += std::to_string(n->element) + ";\n";
-      if (!n->leftChild && !n->rightChild) continue;
-      if (n->leftChild) {
-        data += std::to_string(n->element) + "->" + std::to_string(n->leftChild->element) + " [label=left];\n";
-        q.push(n->leftChild);
+      data += std::to_string(n->val) + ";\n";
+      if (!n->left && !n->right) continue;
+      if (n->left) {
+        data += std::to_string(n->val) + "->" + std::to_string(n->left->val) + " [label=left];\n";
+        q.push(n->left);
       } else {
         data += "NULL" + std::to_string(long(n + 1)) + "[style=invis];\n";
-        data += std::to_string(n->element) + "->NULL" + std::to_string(long(n + 1)) + "[style=invis];\n";
+        data += std::to_string(n->val) + "->NULL" + std::to_string(long(n + 1)) + "[style=invis];\n";
       }
 
-      if (n->rightChild) {
-        data += std::to_string(n->element) + "->" + std::to_string(n->rightChild->element) + " [label=right];\n";
-        q.push(n->rightChild);
+      if (n->right) {
+        data += std::to_string(n->val) + "->" + std::to_string(n->right->val) + " [label=right];\n";
+        q.push(n->right);
       } else {
         data += "NULL" + std::to_string(long(n + 2)) + "[style=invis];\n";
-        data += std::to_string(n->element) + "->NULL" + std::to_string(long(n + 2)) + "[style=invis];\n";
+        data += std::to_string(n->val) + "->NULL" + std::to_string(long(n + 2)) + "[style=invis];\n";
       }
     }
     data += "}";

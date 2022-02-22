@@ -51,19 +51,19 @@ using avlTree = Node<T>;
 
 template<typename T>
 avlTree<T>* leftRotate(avlTree<T> *tree){
-  avlTree<T> *N1 = tree->rightChild;
-  avlTree<T> *N2 = N1->rightChild;
-  tree->rightChild = N1->leftChild;
-  N1->leftChild = tree;
+  avlTree<T> *N1 = tree->right;
+  avlTree<T> *N2 = N1->right;
+  tree->right = N1->left;
+  N1->left = tree;
   return N1;
 }
 
 template<typename T>
 avlTree<T>* rightRotate(avlTree<T> *tree){
-  avlTree<T> *N1 = tree->leftChild;
-  avlTree<T> *N2 = N1->leftChild;
-  tree->leftChild = N1->rightChild;
-  N1->rightChild = tree;
+  avlTree<T> *N1 = tree->left;
+  avlTree<T> *N2 = N1->left;
+  tree->left = N1->right;
+  N1->right = tree;
   return N1;
 }
 
@@ -81,7 +81,7 @@ avlTree<T>* rightRotate(avlTree<T> *tree){
  */
 template<typename T>
 avlTree<T>* rebalanceRLType(avlTree<T> *tree) {
-  tree->rightChild = rightRotate(tree->rightChild);
+  tree->right = rightRotate(tree->right);
   return leftRotate(tree);
 }
 
@@ -110,7 +110,7 @@ avlTree<T>* rebalanceRRType(avlTree<T> *tree) {
 */
 template<typename T>
 avlTree<T>* rebalanceLRType(avlTree<T> *tree) {
-  tree->leftChild = leftRotate(tree->leftChild);
+  tree->left = leftRotate(tree->left);
   return rightRotate(tree);
 }
 
@@ -132,7 +132,7 @@ avlTree<T>* rebalanceLLType(avlTree<T> *tree) {
 template<typename T>
 int getBalanceFactor(avlTree<T> *tree){
     if (!tree) return 0;
-    return getHeight(tree->leftChild) - getHeight(tree->rightChild);
+    return getHeight(tree->left) - getHeight(tree->right);
 }
 
 
@@ -140,13 +140,13 @@ template<typename T>
 int getHeight(avlTree<T> *tree){
     if (!tree)
         return 0;
-    return max<int>(getHeight(tree->leftChild), getHeight(tree->rightChild))+1;
+    return max<int>(getHeight(tree->left), getHeight(tree->right)) + 1;
 }
 
 template<typename T>
 bool avlBalanced(avlTree<T> *tree){
-    int lHeight = getHeight(tree->leftChild);
-    int rHeight = getHeight(tree->rightChild);
+    int lHeight = getHeight(tree->left);
+    int rHeight = getHeight(tree->right);
     if (lHeight - rHeight <= 1 && rHeight - lHeight <= 1)
         return true;
     else
@@ -158,7 +158,7 @@ bool avlBalanced(avlTree<T> *tree){
 */
 template<typename T>
 bool balanced(avlTree<T> *tree){
-    if (getHeight(tree->leftChild) == getHeight(tree->rightChild))
+    if (getHeight(tree->left) == getHeight(tree->right))
         return true;
     else
         return false;
@@ -169,7 +169,7 @@ avlTree<T> *balance(avlTree<T> *tree){
     avlTree<T> *re;
     int factor = getBalanceFactor(tree);
     if (factor > 1){
-        if (getBalanceFactor(tree->leftChild) > 0){
+        if (getBalanceFactor(tree->left) > 0){
             // LL
             re = rebalanceLLType<T>(tree);
         }else{
@@ -177,7 +177,7 @@ avlTree<T> *balance(avlTree<T> *tree){
             re = rebalanceLRType<T>(tree);
         }
     }else if (factor < -1) {
-        if (getBalanceFactor(tree->leftChild) > 0){
+        if (getBalanceFactor(tree->left) > 0){
             // RL
             re = rebalanceRLType<T>(tree);
         }else{
@@ -228,26 +228,26 @@ avlTree<T> *insert(avlTree<T> *&tree, T element){
   std::stack<avlNode<T>*> st;
   while (t) {
     // 记录住树中这个元素的搜索路径
-    if (t->element == element) {
+    if (t->val == element) {
       return tree; // 已经有这个元素，什么都不需要做，直接返回就行
     }
     st.push(t); // 记录路径
     parent = t;
-    if (t->element < element) {
+    if (t->val < element) {
       // 向右走
-      t = t->rightChild;
+      t = t->right;
     } else {
       // 向左走
-      t = t->leftChild;
+      t = t->left;
     }
   }
 
-  if (element > parent->element) {
+  if (element > parent->val) {
     // 搜索的时候，发现这个数应该是插入到最后搜索的节点的右孩子节点
-    parent->rightChild = newNode;
+    parent->right = newNode;
   } else {
     // 搜索的时候，发现这个数应该是插入到最后搜索的节点的左孩子节点
-    parent->leftChild = newNode;
+    parent->left = newNode;
   }
 
   // 开始回溯搜索的路径，自下而上的调整树的平衡性
@@ -259,10 +259,10 @@ avlTree<T> *insert(avlTree<T> *&tree, T element){
     avlNode<T>* parent2 = nullptr;
     if (!st.empty()) parent2 = st.top();
     if (parent2) {
-      if (parent2->leftChild == n) {
-        parent2->leftChild = balance(n);
+      if (parent2->left == n) {
+        parent2->left = balance(n);
       } else {
-        parent2->rightChild = balance(n);
+        parent2->right = balance(n);
       }
       re = parent2;
     } else {
@@ -291,12 +291,12 @@ avlTree<T> *update(avlTree<T> *tree, T element){
 template<typename T>
 avlTree<T> *search(avlTree<T> *tree, T element){
     avlTree<T> *t = tree;
-    if ((t->element > element)){
-        t = t->leftChild;
-    } else if ((t->element == element)){
+    if ((t->val > element)){
+        t = t->left;
+    } else if ((t->val == element)){
         return t;
     } else{
-        t = t->rightChild;
+        t = t->right;
     }
 
     return nullptr;
@@ -305,11 +305,11 @@ avlTree<T> *search(avlTree<T> *tree, T element){
 template<typename T>
 void display(avlTree<T>* root) {
   if (!root) return;
-  if (root->leftChild)
-    print(root->leftChild);
-  std::cout<<root->element<<" ";
-  if (root->rightChild)
-    print(root->rightChild);
+  if (root->left)
+    print(root->left);
+  std::cout << root->val << " ";
+  if (root->right)
+    print(root->right);
 }
 
 #endif
