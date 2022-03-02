@@ -4,6 +4,7 @@ import lombok.Data;
 import lombok.Getter;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Stack;
 
@@ -94,11 +95,41 @@ public class BinaryTree<T> {
     };
 
     List<T> midOrder2() {
-        return null;
+        // 非递归实现中序遍历
+        Stack<Node<T>> stack = new Stack<>();
+        List<T> result = new ArrayList<>();
+        Node<T> node = this.root;
+        while (null != node || stack.empty() == false) {
+            if (null != node) {
+                stack.push(node);
+                node = node.left;
+            } else {
+                node = stack.pop();
+                result.add(node.data);
+                node = node.right;
+            }
+        }
+        return result;
     };
 
     List<T> postOrder2() {
-        return null;
+        // 非递归实现后序遍历
+        Stack<Node<T>> stack = new Stack<>();
+        List<T> result = new ArrayList<>();
+        Node<T> node = this.root;
+        while (null != node || stack.empty() == false) {
+            if (null != node) {
+                stack.push(node);
+                result.add(node.data);
+                node = node.right;
+            } else {
+                node = stack.pop();
+                node = node.left;
+            }
+        }
+
+        Collections.reverse(result);
+        return result;
     };
 
     public List<T> serialize() {
@@ -110,6 +141,19 @@ public class BinaryTree<T> {
     }
 
     static public Node<?> lowestCommonAncestor(BinaryTree<?> treeA, BinaryTree<?> treeB) {
+        return null;
+    }
+
+    // 中序遍历中二叉树的前驱节点
+    public Node<T> predecessor(Node<T> node) {
+        if (null == node) return null;
+        Node<T> current = root;
+        while (null != current) {
+        }
+        return null;
+    }
+
+    public Node<T> successor(Node<T> node) {
         return null;
     }
 }

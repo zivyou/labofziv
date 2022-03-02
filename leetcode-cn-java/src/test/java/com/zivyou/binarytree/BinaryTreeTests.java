@@ -2,7 +2,6 @@ package com.zivyou.binarytree;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class BinaryTreeTests {
@@ -17,6 +16,18 @@ public class BinaryTreeTests {
         BinaryTree<Integer> tree = new BinaryTree<>(node);
 
         List<Integer> result = tree.preOrder2();
+        for (Integer d: result) {
+            System.out.println(d+", ");
+        }
+        System.out.println();
+
+        result = tree.midOrder2();
+        for (Integer d: result) {
+            System.out.println(d+", ");
+        }
+        System.out.println();
+
+        result = tree.postOrder2();
         for (Integer d: result) {
             System.out.println(d+", ");
         }
@@ -38,6 +49,12 @@ public class BinaryTreeTests {
             System.out.println(d+", ");
         }
         System.out.println();
+
+        result = tree.midOrder2();
+        for (Integer d: result) {
+            System.out.println(d+", ");
+        }
+        System.out.println();
     }
 
     @Test
@@ -55,6 +72,18 @@ public class BinaryTreeTests {
             System.out.println(d+", ");
         }
         System.out.println();
+
+        result = tree.midOrder2();
+        for (Integer d: result) {
+            System.out.println(d+", ");
+        }
+        System.out.println();
+
+        result = tree.postOrder2();
+        for (Integer d: result) {
+            System.out.println(d+", ");
+        }
+        System.out.println();
     }
 
     @Test
@@ -68,6 +97,18 @@ public class BinaryTreeTests {
         BinaryTree<Integer> tree = new BinaryTree<>(node);
 
         List<Integer> result = tree.preOrder2();
+        for (Integer d: result) {
+            System.out.println(d+", ");
+        }
+        System.out.println();
+
+        result = tree.midOrder2();
+        for (Integer d: result) {
+            System.out.println(d+", ");
+        }
+        System.out.println();
+
+        result = tree.postOrder2();
         for (Integer d: result) {
             System.out.println(d+", ");
         }
