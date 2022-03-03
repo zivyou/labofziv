@@ -46,7 +46,7 @@ class Node<T> {
 }
 
 public class BinaryTree<T> {
-    private final Node<T> root;
+    protected Node<T> root;
     public BinaryTree() { this.root=null; }
     public BinaryTree(Node<T> root) {
         this.root = root;
@@ -179,7 +179,7 @@ public class BinaryTree<T> {
             return mostRight(node.left);
         } else {
             Node<T> p = node.parent;
-            while (node == p.left) {
+            while (null != p && node == p.left) {
                 node = p;
                 p = node.parent;
             }
@@ -194,7 +194,8 @@ public class BinaryTree<T> {
             return mostLeft(node.right);
         } else {
             Node<T> p = node.parent;
-            while (node == p.right) {
+            if (null == p) return null;
+            while (null != p && node == p.right) {
                 node = p;
                 p = node.parent;
             }

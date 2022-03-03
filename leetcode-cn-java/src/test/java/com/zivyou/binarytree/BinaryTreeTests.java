@@ -114,4 +114,21 @@ public class BinaryTreeTests {
         }
         System.out.println();
     }
+
+    @Test
+    public void test05() {
+        Node<Integer> node = new Node<>(1);
+        node.addLeftChild(new Node<>(2)).addLeftChild(new Node<>(3))
+                .addRightChild(new Node<>(4))
+                .addRightChild(new Node<>(5))
+                .addRightChild(new Node<>(6));
+        BinaryTree<Integer> tree = new BinaryTree<>(node);
+        Node<Integer> current = node;
+        while (current != null) {
+            Node<Integer> pre = tree.predecessor(current);
+            if (null != pre)
+                System.out.println(pre.data+", ");
+            current = pre;
+        }
+    }
 }
