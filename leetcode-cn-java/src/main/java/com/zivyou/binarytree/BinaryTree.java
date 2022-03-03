@@ -1,6 +1,5 @@
 package com.zivyou.binarytree;
 
-import lombok.Data;
 import lombok.Getter;
 
 import java.util.ArrayList;
@@ -12,22 +11,37 @@ import java.util.Stack;
 class Node<T> {
     Node<T> left;
     Node<T> right;
+    Node<T> parent;
     T data;
 
     public Node(T data) {
         this.data = data;
         left = null;
         right = null;
+        parent = null;
     }
 
     public Node(Node<T> left, Node<T> right, T data) {
         this.left = left;
         this.right = right;
         this.data = data;
+        this.parent = null;
+    }
+
+    public Node<T> addLeftChild(Node<T> node) {
+        this.left = node;
+        node.parent = this;
+        return node;
+    }
+
+    public Node<T> addRightChild(Node<T> node) {
+        this.right = node;
+        node.parent = this;
+        return node;
     }
 
     public Node() {
-        left = right = null;
+        parent = left = right = null;
     }
 }
 
@@ -144,16 +158,47 @@ public class BinaryTree<T> {
         return null;
     }
 
+    private Node<T> mostRight(Node<T> node) {
+        while (node.right != null) {
+            node = node.right;
+        }
+        return node;
+    }
+
+    private Node<T> mostLeft(Node<T> node) {
+        while (node.left != null) {
+            node = node.left;
+        }
+        return node;
+    }
+
     // 中序遍历中二叉树的前驱节点
     public Node<T> predecessor(Node<T> node) {
         if (null == node) return null;
-        Node<T> current = root;
-        while (null != current) {
+        if (null != node.left) {
+            return mostRight(node.left);
+        } else {
+            Node<T> p = node.parent;
+            while (node == p.left) {
+                node = p;
+                p = node.parent;
+            }
+            return p;
         }
-        return null;
     }
 
+    // 中序遍历中二叉树的后继节点
     public Node<T> successor(Node<T> node) {
-        return null;
+        if (null == node) return null;
+        if (null != node.right) {
+            return mostLeft(node.right);
+        } else {
+            Node<T> p = node.parent;
+            while (node == p.right) {
+                node = p;
+                p = node.parent;
+            }
+            return p;
+        }
     }
 }
