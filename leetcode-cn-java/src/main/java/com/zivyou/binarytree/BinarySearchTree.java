@@ -48,6 +48,7 @@ public class BinarySearchTree<T extends Comparable<T>> extends BinaryTree<T>{
                 if (node.data.compareTo(current.data) < 0) {
                     if (current.left == null) {
                         current.left = node;
+                        node.parent = current;
                         return true;
                     } else {
                         current = current.left;
@@ -55,6 +56,7 @@ public class BinarySearchTree<T extends Comparable<T>> extends BinaryTree<T>{
                 } else if (node.data.compareTo(current.data) > 0) {
                     if (current.right == null) {
                         current.right = node;
+                        node.parent = current;
                         return true;
                     } else {
                         current = current.right;
@@ -72,6 +74,8 @@ public class BinarySearchTree<T extends Comparable<T>> extends BinaryTree<T>{
     }
 
     public boolean remove(Node<T> node) {
+        if (null == node) return false;
+
         return true;
     }
 
@@ -80,10 +84,31 @@ public class BinarySearchTree<T extends Comparable<T>> extends BinaryTree<T>{
     }
 
     public boolean exist(Node<T> node) {
+        if (null == node) return false;
+        Node<T> current = this.root;
+        while (current != null) {
+            int result = current.data.compareTo(node.data);
+            if (result < 0) {
+                current = current.right;
+            } else if (result > 0) {
+                current = current.left;
+            } else
+                return true;
+        }
         return false;
     }
 
     public boolean exist(T data) {
+        Node<T> current = this.root;
+        while (current != null) {
+            int result = current.data.compareTo(data);
+            if (result < 0) {
+                current = current.right;
+            } else if (result > 0) {
+                current = current.left;
+            } else
+                return true;
+        }
         return false;
     }
 }
