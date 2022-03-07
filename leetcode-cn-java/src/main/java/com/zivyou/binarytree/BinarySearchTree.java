@@ -73,10 +73,65 @@ public class BinarySearchTree<T extends Comparable<T>> extends BinaryTree<T>{
         return add(new Node<>(data));
     }
 
-    public boolean remove(Node<T> node) {
-        if (null == node) return false;
-
-        return true;
+    public Node<T> remove(Node<T> node) {
+        if (null == node) return null;
+        if (root == null) return null;
+        Node<T> successor = this.successor(node);
+        if (null != node.parent) {
+            if (null == node.left && null == node.right) {
+                this.root = null;
+            } else if (null == node.left && null != node.right) {
+                this.root = node.right;
+                this.root.parent = null;
+            } else if (null != node.left && null == node.right) {
+                this.root = node.left;
+                this.root.parent = null;
+            } else {
+                Node<T> tmpNode = remove(successor);
+                tmpNode.parent = node.parent;
+                tmpNode.left = node.left;
+                tmpNode.right = node.right;
+                if (node == node.parent.left) {
+                    node.parent.left = tmpNode;
+                } else {
+                    node.parent.right = tmpNode;
+                }
+            }
+            node.left = node.right = null;
+            return node;
+        } else {
+            if (null == node.left && null == node.right) {
+                if (node == node.parent.left) {
+                    node.parent.left = null;
+                } else {
+                    node.parent.right = null;
+                }
+            } else if (null == node.left && null != node.right) {
+                if (node == node.parent.left) {
+                    node.parent.left = node.right;
+                } else {
+                    node.parent.right = node.right;
+                }
+            } else if (null != node.left && null == node.right) {
+                if (node == node.parent.left) {
+                    node.parent.left = node.left;
+                } else {
+                    node.parent.right = node.left;
+                }
+            } else {
+                Node<T> tmpNode = remove(successor);
+                tmpNode.parent = node.parent;
+                tmpNode.left = node.left;
+                tmpNode.right = node.right;
+                if (node == node.parent.left) {
+                    node.parent.left = tmpNode;
+                } else {
+                    node.parent.right = tmpNode;
+                }
+            }
+            node.left = node.right = null;
+            return node;
+        }
     }
 
     public boolean remove(T data) {

@@ -131,4 +131,9 @@ public class BinaryTreeTests {
             current = pre;
         }
     }
+
+    @Test
+    public void test06() {
+
+    }
 }

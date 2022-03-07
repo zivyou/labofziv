@@ -2,10 +2,8 @@ package com.zivyou.binarytree;
 
 import lombok.Getter;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Stack;
+import java.lang.reflect.Type;
+import java.util.*;
 
 @Getter
 class Node<T> {
@@ -146,12 +144,39 @@ public class BinaryTree<T> {
         return result;
     };
 
-    public List<T> serialize() {
-        return null;
+    private void rawSerialize(Node<T> node, StringBuffer sb) {
+        if (null == node) {
+            sb.append("#").append(",");
+            return;
+        }
+        sb.append(node.data.toString()).append(",");
+        rawSerialize(node.left, sb);
+        rawSerialize(node.right, sb);
     }
 
-    static public BinaryTree<?> deserialize(List<?> data) {
-        return null;
+    public String serialize() {
+        StringBuffer sb = new StringBuffer();
+        rawSerialize(this.root, sb);
+        return sb.toString();
+    }
+
+    static  private <T extends Comparable<T>> Node<T> deserialize(LinkedList<String> words, TypeCast<T> caster) {
+        if (words == null || words.size() <= 0) return null;
+        String head = words.removeFirst();
+        if (null == head) return null;
+        Node<T> node = new Node<T>(caster.parseFromString(head));
+        node.left = deserialize(words, caster);
+        node.right = deserialize(words, caster);
+        return node;
+    }
+
+    static public <T extends Comparable<T>> BinaryTree<T> deserialize(String data, TypeCast<T> caster) {
+        LinkedList<String> words = new LinkedList<>();
+        for (String s: data.split(",")) {
+            words.addLast(s);
+        }
+        Node<T> root = BinaryTree.deserialize(words, caster);
+        return new BinaryTree<T>(root);
     }
 
     static public Node<?> lowestCommonAncestor(BinaryTree<?> treeA, BinaryTree<?> treeB) {
