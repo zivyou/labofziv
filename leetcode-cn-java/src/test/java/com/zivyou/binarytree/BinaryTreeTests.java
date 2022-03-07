@@ -15,6 +15,8 @@ public class BinaryTreeTests {
         node.right.right = new Node<>(6);
         BinaryTree<Integer> tree = new BinaryTree<>(node);
 
+        System.out.println(tree.serialize());
+
         List<Integer> result = tree.preOrder2();
         for (Integer d: result) {
             System.out.println(d+", ");
@@ -134,6 +136,8 @@ public class BinaryTreeTests {
 
     @Test
     public void test06() {
-
+        String data = "1,2,4,#,#,5,#,#,3,#,6,#,#,";
+        BinaryTree<Integer> tree = BinaryTree.deserialize(data, Integer::valueOf);
+        System.out.println(tree.serialize());
     }
 }

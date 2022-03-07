@@ -164,6 +164,7 @@ public class BinaryTree<T> {
         if (words == null || words.size() <= 0) return null;
         String head = words.removeFirst();
         if (null == head) return null;
+        if (head.equals("#")) return null;
         Node<T> node = new Node<T>(caster.parseFromString(head));
         node.left = deserialize(words, caster);
         node.right = deserialize(words, caster);
