@@ -140,4 +140,12 @@ public class BinaryTreeTests {
         BinaryTree<Integer> tree = BinaryTree.deserialize(data, Integer::valueOf);
         System.out.println(tree.serialize());
     }
+
+    @Test
+    public void test07() {
+        String data = "20,10,6,3,#,#,8,#,#,15,12,#,#,#,25,23,#,24,#,#,28,27,#,#,30,#,#,";
+        BinarySearchTree<Integer> tree = new BinarySearchTree<Integer>(BinaryTree.deserialize(data, Integer::valueOf));
+        tree.remove(25);
+        System.out.println(tree.serialize());
+    }
 }

@@ -1,12 +1,6 @@
 package com.zivyou.binarytree;
 
-import java.util.List;
-
 public class BinarySearchTree<T extends Comparable<T>> extends BinaryTree<T>{
-
-    boolean isBinarySearchTree() {
-        return true;
-    }
 
     boolean isCompleteBinaryTree() {
         return true;
@@ -16,9 +10,17 @@ public class BinarySearchTree<T extends Comparable<T>> extends BinaryTree<T>{
         return true;
     }
 
+
+    public BinarySearchTree(BinaryTree<T> tree) {
+        super();
+        if (BinarySearchTree.isBinarySearchTree(tree)) {
+            this.root = tree.root;
+        }
+    }
+
     static public boolean isBinarySearchTree(BinaryTree<?> tree) {
         assert null != tree;
-        return false;
+        return true;
     }
 
     static public boolean isCompleteBinaryTree(BinaryTree<?> tree) {
@@ -76,66 +78,83 @@ public class BinarySearchTree<T extends Comparable<T>> extends BinaryTree<T>{
     public Node<T> remove(Node<T> node) {
         if (null == node) return null;
         if (root == null) return null;
-        Node<T> successor = this.successor(node);
-        if (null != node.parent) {
-            if (null == node.left && null == node.right) {
-                this.root = null;
-            } else if (null == node.left && null != node.right) {
-                this.root = node.right;
-                this.root.parent = null;
-            } else if (null != node.left && null == node.right) {
-                this.root = node.left;
-                this.root.parent = null;
+        if (node.left == null && node.right == null) {
+            if (root == node) {
+                root = null;
+                return node;
             } else {
-                Node<T> tmpNode = remove(successor);
-                tmpNode.parent = node.parent;
-                tmpNode.left = node.left;
-                tmpNode.right = node.right;
-                if (node == node.parent.left) {
-                    node.parent.left = tmpNode;
-                } else {
-                    node.parent.right = tmpNode;
-                }
-            }
-            node.left = node.right = null;
-            return node;
-        } else {
-            if (null == node.left && null == node.right) {
                 if (node == node.parent.left) {
                     node.parent.left = null;
+                    return node;
                 } else {
                     node.parent.right = null;
-                }
-            } else if (null == node.left && null != node.right) {
-                if (node == node.parent.left) {
-                    node.parent.left = node.right;
-                } else {
-                    node.parent.right = node.right;
-                }
-            } else if (null != node.left && null == node.right) {
-                if (node == node.parent.left) {
-                    node.parent.left = node.left;
-                } else {
-                    node.parent.right = node.left;
-                }
-            } else {
-                Node<T> tmpNode = remove(successor);
-                tmpNode.parent = node.parent;
-                tmpNode.left = node.left;
-                tmpNode.right = node.right;
-                if (node == node.parent.left) {
-                    node.parent.left = tmpNode;
-                } else {
-                    node.parent.right = tmpNode;
+                    return node;
                 }
             }
-            node.left = node.right = null;
-            return node;
+        } else if (node.left != null && node.right == null) {
+            if (root == node) {
+                root = node.left;
+                return node;
+            } else {
+                if (node == node.parent.left) {
+                    node.parent.left = node.left;
+                    return node;
+                } else {
+                    node.parent.right = node.left;
+                    return node;
+                }
+            }
+        } else if (node.left == null && node.right != null) {
+            if (root == node) {
+                root = node.right;
+                return node;
+            } else {
+                if (node == node.parent.left) {
+                    node.parent.left = node.right;
+                    return node;
+                } else {
+                    node.parent.right = node.right;
+                    return node;
+                }
+            }
+        } else {
+            Node<T> successor = successor(node);
+            remove(successor);
+            successor.left = node.left;
+            successor.right = node.right;
+            if (root == node) {
+                root = successor;
+                return node;
+            } else {
+                if (node == node.parent.left) {
+                    node.parent.left = successor;
+                    return node;
+                } else {
+                    node.parent.right = successor;
+                    return node;
+                }
+            }
         }
     }
 
+    public Node<T> search(T data) {
+        Node<T> current = root;
+        int result;
+        while (current != null && (result = current.data.compareTo(data)) != 0) {
+            if (result < 0) {
+                current = current.right;
+            } else if (result > 0) {
+                current = current.left;
+            } else {
+                return current;
+            }
+        }
+        return current;
+    }
+
     public boolean remove(T data) {
-        return true;
+        Node<T> node = remove(search(data));
+        return null != node;
     }
 
     public boolean exist(Node<T> node) {

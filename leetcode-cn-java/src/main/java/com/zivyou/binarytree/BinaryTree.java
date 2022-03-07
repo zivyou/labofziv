@@ -160,14 +160,15 @@ public class BinaryTree<T> {
         return sb.toString();
     }
 
-    static  private <T extends Comparable<T>> Node<T> deserialize(LinkedList<String> words, TypeCast<T> caster) {
+    static  private <T extends Comparable<T>> Node<T> deserialize(LinkedList<String> words, Node<T> parent, TypeCast<T> caster) {
         if (words == null || words.size() <= 0) return null;
         String head = words.removeFirst();
         if (null == head) return null;
         if (head.equals("#")) return null;
         Node<T> node = new Node<T>(caster.parseFromString(head));
-        node.left = deserialize(words, caster);
-        node.right = deserialize(words, caster);
+        node.parent = parent;
+        node.left = deserialize(words, node, caster);
+        node.right = deserialize(words, node, caster);
         return node;
     }
 
@@ -176,7 +177,7 @@ public class BinaryTree<T> {
         for (String s: data.split(",")) {
             words.addLast(s);
         }
-        Node<T> root = BinaryTree.deserialize(words, caster);
+        Node<T> root = BinaryTree.deserialize(words, null, caster);
         return new BinaryTree<T>(root);
     }
 
