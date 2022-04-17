@@ -30,6 +30,8 @@ namespace Graph{
     };
 
     ~Edge() {
+      delete from;
+      delete to;
     };
   };
 }

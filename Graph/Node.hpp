@@ -7,6 +7,10 @@
 namespace Graph {
   class Edge;
   class Node {
+    /**
+     * 邻接表存储结构：
+     * 1。 每个
+     */
   public:
     int id;
     int val;

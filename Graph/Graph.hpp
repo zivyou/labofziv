@@ -17,7 +17,8 @@ namespace Graph {
 
   class Graph {
   private:
-    std::unordered_map<Edge *, bool> edges;
+    // std::unordered_map<Edge *, bool> edges;
+    std::unordered_set<Edge*> edges;
     std::map<int, Node*> nodes;
     const Node* getMinLengthNodeInUnvisitedNodes(const std::unordered_map<const Node*, int>& result,
         const std::unordered_set<const Node*>& visitedNodes) {
@@ -134,7 +135,8 @@ namespace Graph {
     std::unordered_set<const Edge*> kruskal() {
       std::priority_queue<const Edge*, std::vector<const Edge*>, Graph::EdgeCompare> pq(EdgeCompare(true)); 
       for (auto e: edges) {
-        pq.push(e.first);
+//        pq.push(e.first);
+          pq.push(e);
       }
       std::unordered_set<const Edge*> result;
       UnionFindSet ufs(nodes.size());
@@ -215,7 +217,8 @@ namespace Graph {
         dotFile.open("./graph.dot", ios::out);
         dotFile<<"digraph {"<<std::endl;
         for (auto& e: edges) {
-          dotFile<<e.first->from->id<<" -> "<<e.first->to->id<<";"<<std::endl;
+//          dotFile<<e.first->from->id<<" -> "<<e.first->to->id<<";"<<std::endl;
+            dotFile<<e->from->id<<" -> "<<e->to->id<<std::endl;
         }
         dotFile<<"}";
       } catch (exception& e) {
@@ -240,7 +243,7 @@ namespace Graph {
 
     void addEdge(Edge*& e) {
       if (edges.find(e) == edges.end()) {
-        edges[e] = true;
+//        edges[e] = true;
         addNode(e);
       }
     }
@@ -302,12 +305,16 @@ namespace Graph {
 
     ~Graph() {
       for (auto e : edges) {
+        /*
         if (e.second) {
           e.first->to->in--;
           e.first->from->out--;
           delete e.first;
           e.second = false;
-        }
+        }*/
+        e->to->in--;
+        e->from->out--;
+        delete e;
       }
       for (auto& n : nodes) {
         if (n.second && n.second->in <= 0) {
