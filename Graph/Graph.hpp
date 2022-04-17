@@ -19,7 +19,8 @@ namespace Graph {
   private:
     // std::unordered_map<Edge *, bool> edges;
     std::unordered_set<Edge*> edges;
-    std::map<int, Node*> nodes;
+    std::unordered_set<Node*> nodes;
+//    std::map<int, Node*> nodes;
     const Node* getMinLengthNodeInUnvisitedNodes(const std::unordered_map<const Node*, int>& result,
         const std::unordered_set<const Node*>& visitedNodes) {
       int distance = INT_MAX;
@@ -38,77 +39,75 @@ namespace Graph {
   public:
     Graph() {};
     void addNode(Node* n) {
-      if (nodes.find(n->id) == nodes.end()) {
-        nodes[n->id] = n;
+      if (nodes.find(n) == nodes.end()) {
+        nodes.insert(n);
       }
     }
 
     std::vector<int> topologySort() {
-      std::map<int, int> backup;
+      std::map<Node*, int> backup;
       for (auto& elem : nodes) {
-        backup[elem.first] = elem.second->in;
+        backup[elem] = elem->in;
       }
 
-      std::list<int>  zeroIn;
+      std::list<Node*>  zeroIn;
       for (auto& elem : nodes) {
-        if (elem.second->in == 0) {
-          zeroIn.push_back(elem.first);
+        if (elem->in == 0) {
+          zeroIn.push_back(elem);
         }
       }
 
       std::vector<int> result;
       while (!zeroIn.empty()) {
-        int n = zeroIn.front();
+        Node* node = zeroIn.front();
         zeroIn.pop_front();
-        result.push_back(n);
-        Node* node = nodes[n];
+        result.push_back(node->val);
         for (auto& e : node->nexts) {
-          nodes[e]->in--;
-          if (nodes[e]->in <= 0) zeroIn.push_back(e);
+          e->in--;
+          if (e->in <= 0) zeroIn.push_back(e);
         }
       }
 
       // recover
       for (auto &e : nodes) {
-        e.second->in = backup[e.first];
+        e->in = backup[e];
       }
       return result;
     }
 
-    void bfs(int startId) {
+    void bfs(Node* start) {
       std::cout<<"before bfs...."<<std::endl;
       std::queue<Node*> st;
-      std::set<int> visited;
-      Node* start = nodes[startId];
+      std::set<Node*> visited;
       st.push(start);
       while (!st.empty()) {
         Node* n = st.front();
         st.pop();
-        if (visited.find(n->id) == visited.end()) {
+        if (visited.find(n) == visited.end()) {
           std::cout<<"bfs visit:"<<n->id<<std::endl;
-          visited.insert(n->id);
+          visited.insert(n);
           for (auto next : n->nexts) {
             if (visited.find(next) == visited.end()) {
-              st.push(nodes[next]);
+              st.push(next);
             }
           }
         }
       }
     }
 
-    void dfs(int startId) {
+    void dfs(Node* start) {
       std::cout<<"before dfs..."<<std::endl;
       std::stack<Node*> st;
-      std::set<int> visited;
-      st.push(nodes[startId]);
+      std::set<Node*> visited;
+      st.push(start);
       while (!st.empty()) {
         Node* n = st.top();
         st.pop();
         std::cout<<"visiting node"<<n->id<<"...";
-        visited.insert(n->id);
+        visited.insert(n);
         for (auto x : n->nexts) {
           if (visited.find(x) == visited.end()) {
-            st.push(nodes[x]);
+            st.push(x);
             break;
           }
         }
@@ -160,7 +159,7 @@ namespace Graph {
       std::unordered_set<Node*> visitedNodes;
       std::vector<Node*> allNodes;
       for (auto n: nodes) {
-        allNodes.push_back(n.second);
+        allNodes.push_back(n);
       }
       visitedNodes.insert(allNodes[0]);
       for (auto e: allNodes[0]->edges) {
@@ -187,10 +186,10 @@ namespace Graph {
     std::unordered_map<const Node*, int> dijkstra(const Node* n) {
       std::unordered_map<const Node*, int> result;
       for (auto nt: nodes) {
-        if (nt.second == n) {
-          result[nt.second] = 0;
+        if (nt == n) {
+          result[nt] = 0;
         } else {
-          result[nt.second] = INT_MAX;
+          result[nt] = INT_MAX;
         }
       }
 
@@ -228,16 +227,16 @@ namespace Graph {
     }
 
     void addNode(Edge*& e) {
-      if (nodes.find((e->fromId)) == nodes.end()) {
-        nodes[(e->fromId)] = e->from;
+      if (nodes.find((e->from)) == nodes.end()) {
+        nodes.insert(e->from);
       }
-      if (nodes.find((e->toId)) == nodes.end()) {
-        nodes[(e->toId)] = e->to;
+      if (nodes.find(e->to) == nodes.end()) {
+        nodes.insert(e->to);
       }
-      Node* from = nodes[e->fromId];
-      Node* to = nodes[e->toId];
+      Node* from = e->from;
+      Node* to = e->to;
       from->out++;to->in++;
-      from->nexts.push_back(e->toId);
+      from->nexts.push_back(e->to);
       from->edges.push_back(e);
     }
 
@@ -317,8 +316,8 @@ namespace Graph {
         delete e;
       }
       for (auto& n : nodes) {
-        if (n.second && n.second->in <= 0) {
-          delete n.second;
+        if (n && n->in <= 0) {
+          delete n;
         }
       }
     };
