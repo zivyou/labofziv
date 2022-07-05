@@ -75,6 +75,32 @@ public class BinarySearchTree<T extends Comparable<T>> extends BinaryTree<T>{
         return add(new Node<>(data));
     }
 
+    public Node<T> remove2(Node<T> node) {
+        if (null == node) return null;
+        if (root == null) return null;
+
+        Node<T> y = null; // 最终需要删除并返回的节点;
+        Node<T> x = null; // 被删除的节点下面的子树的根;
+
+        if (node.left == null && node.right == null) {
+            y = node;
+        } else if (node.left != null && node.right == null) {
+            y = node;
+            x = node.left;
+        } else if (node.left == null && node.right != null) {
+            y = node;
+            x = node.right;
+        } else {
+            Node<T> s = successor(node);
+            y = node;
+        }
+
+        if (y == root) {
+            this.root = null;
+        }
+        return y;
+    }
+
     public Node<T> remove(Node<T> node) {
         if (null == node) return null;
         if (root == null) return null;
