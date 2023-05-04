@@ -8,6 +8,7 @@
 #include <set>
 #include <stack>
 #include <stdexcept>
+#include <climits>
 #include "Node.hpp"
 #include "Edge.hpp"
 #include "UnionFindSet.h"

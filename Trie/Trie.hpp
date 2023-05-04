@@ -11,17 +11,17 @@ private:
 public:
   int p; // 中途路过
   int e; // 以。。为结尾
-  TrieNode* next[26*2];
+  TrieNode* next[26*2] = {nullptr};
   TrieNode() : p(0), e(0) {
-    for (int i=0; i < 26*2; i++) next[i] = nullptr;
+    for (auto & i : next) i = nullptr;
   };
   TrieNode(int a, int b) : p(a), e(b) {
-    for (int i=0; i < 26*2; i++) next[i] = nullptr;
+    for (auto & i : next) i = nullptr;
   };
 
   ~TrieNode() {
-    for (int i=0; i < 26*2; i++) {
-      if (next[i]) delete next[i];
+    for (auto & i : next) {
+      delete i;
     };
   }
 };
@@ -29,7 +29,7 @@ public:
 class Trie {
 private:
   TrieNode* root;
-  int index (char c) {
+  static int index (char c) {
     if (c>='a' && c<='z') return c-'a';
     if (c>='A' && c<='Z') return c-'A';
     return -1;
@@ -38,7 +38,7 @@ public:
   Trie() {
     root = new TrieNode();
   }
-  void addString(std::string str) {
+  void addString(const std::string& str) {
     TrieNode* node = root;
     node->p++;
     for (auto c : str) {
@@ -51,7 +51,7 @@ public:
     node->e++;
   }
 
-  int search(std::string str) {
+  int search(const std::string& str) {
     if (str.length() <= 0) return 0;
     TrieNode* node = root;
     for (auto c : str) {
@@ -64,7 +64,7 @@ public:
     return node->e;
   }
 
-  int prefix(std::string str) {
+  int prefix(const std::string& str) {
     if (str.length() <= 0) return 0;
     TrieNode* node = root;
     for (auto c : str) {
