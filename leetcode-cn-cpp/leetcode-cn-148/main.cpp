@@ -11,55 +11,80 @@ struct ListNode {
 
 class Solution {
 public:
-    void rawSortList(ListNode *leftHead){
-        if (!leftHead->next)
-            return;
-        ListNode * rightHead = new ListNode(-1);
-        ListNode * sign = leftHead->next;
-        leftHead->next = leftHead->next->next;
-        sign->next = NULL;
 
-        ListNode * head = leftHead->next;
-        while (head){
-            ListNode * temp = head->next;
-            if (head->val <= sign->val){
-                head->next = leftHead->next;
-                leftHead->next = head;
-            }else{
-                head->next = rightHead->next;
-                rightHead->next = head;
+    ListNode* mergeList(ListNode* l1, ListNode* l2) {
+        auto* myHead = new ListNode(-1);
+        ListNode* t = myHead;
+        while (l1 || l2) {
+            if (l1 && l2) {
+                auto minNode = l1->val < l2->val ? l1 : l2;
+                t->next = minNode;
+                t = t->next;
+//                t->next = nullptr;
+                if (minNode == l1) l1 = l1->next;
+                if (minNode == l2) l2 = l2->next;
+            } else if (!l1) {
+                t->next = l2;
+                break;
+            } else {
+                t->next = l1;
+                break;
             }
-            head = temp;
-                    //cout<<"=============="<<head->val<<endl;
         }
-
-        rawSortList(leftHead);
-        rawSortList(rightHead);
-
-        ListNode *t = leftHead;
-        while (t->next){
-            t = t->next;
-        }
-        t->next = sign;
-        sign->next = rightHead->next;
+        t = myHead->next;
+        delete myHead;
+        return t;
     }
-    ListNode* sortList(ListNode *head){
 
-       ListNode *myHead = new ListNode(-1);
-       myHead->next = head;
-       rawSortList(myHead);
-       return myHead->next;
+    std::pair<ListNode*, ListNode*> split(ListNode* head) {
+        ListNode* myHead = new ListNode(-1);
+        myHead->next = head;
+        ListNode* l1 = myHead;
+        ListNode* l2 = myHead;
+        while (l1 && l2 && l2->next) {
+            l1 = l1->next;
+            l2 = l2->next->next;
+        }
+        l2 = l1->next;
+        l1->next = nullptr;
+        return std::make_pair(myHead->next, l2);
+    }
+    ListNode* sortList(ListNode* head) {
+        if (!head) return nullptr;
+        if (head->next == nullptr) return head;
+        auto [l1, l2] = split(head);
+        l1 = sortList(l1);
+        l2 = sortList(l2);
+        auto re = mergeList(l1, l2);
+        return re;
     }
 
     void print(ListNode *head){
         while (head){
-            cout<<head->val<<" ";
+            cout<<"node: "<<head->val<<" ";
             head = head->next;
         }
         cout<<endl;
     }
 };
 
+static ListNode* arrayToList(int a[]) {
+    auto *t = new ListNode(-1);
+    auto re = t;
+    for (int i=0; i<sizeof(a)/4; i++){
+        t->next = new ListNode(a[i]);
+        t = t->next;
+    }
+    return re->next;
+}
+
+//int main() {
+//    int a[] = {2, 4};
+//    int b[] = {1, 3};
+//    Solution s;
+//    auto t = s.mergeList(arrayToList(a), arrayToList(b));
+//    s.print(t);
+//}
 
 
 int main()
@@ -73,7 +98,7 @@ int main()
     }
     Solution s;
     s.print(myHead->next);
-    ListNode *newHead = s.sortList(myHead);
+    ListNode *newHead = s.sortList(myHead->next);
     s.print(newHead);
     return 0;
 }

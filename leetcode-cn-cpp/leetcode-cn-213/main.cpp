@@ -1,63 +1,34 @@
 #include <iostream>
 #include <vector>
+#include <climits>
 
 using namespace std;
 
 class Solution {
 public:
     int rob(vector<int>& nums) {
-        int len = nums.size();
-        if (len == 1)
+        int n = nums.size();
+        if (n == 1)
             return nums[0];
-        if (len == 2)
-            return 0;
-        int dp[len];
-        bool choosed;
-        dp[0] = nums[0];
-        bool firstChoosed = false;
-        if (nums[1] > nums[0]){
-            dp[1] = nums[1];
-            choosed = true;
-            firstChoosed = false;
-        }else{
-            dp[1] = nums[0];
-            choosed = false;
-            firstChoosed = true;
-        }
+        vector<int> f(n, 0);
+        vector<int> g(n, 0);
 
-        for (int i=2; i<len; i++){
-            if (choosed){
-                if (dp[i-2] + nums[i] < dp[i-1]){
-                    choosed = false;
-                    dp[i] = dp[i-1];
-                }else{
-                    dp[i] = dp[i-2] + nums[i];
-                    choosed = true;
-                }
-            }else {
-                if (dp[i-2] > dp[i-1]){
-                    dp[i] = dp[i-2] + nums[i];
-                }else
-                    dp[i] = dp[i-1] + nums[i];
-                choosed = true;
-            }
+        f[0] =nums[0]; f[1] = std::max(nums[0], nums[1]);
+        g[1] = nums[1]; g[0] = 0;
+        for (int i=2; i<n; i++) {
+            f[i] = std::max(f[i-2]+nums[i], f[i-1]);
         }
-
-        if (!choosed)
-            return dp[len-2];
-        else{
-            if (firstChoosed)
-                return dp[len-2];
-            else
-                return dp[len-1];
+        for (int i=2; i<n; i++) {
+            g[i] = std::max(g[i-2]+nums[i], g[i-1]);
         }
+        return std::max(f[n - 2], g[n-1]);
     }
 };
 
 int main()
 {
     Solution s;
-    vector<int> v({1,2,3,4,0,1,8});
+    vector<int> v({1,2,3});
     cout<<s.rob(v)<<endl;
     /*1,2,3,4,0,1,8*/
     cout << "Hello world!" << endl;
