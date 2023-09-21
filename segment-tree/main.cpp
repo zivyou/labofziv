@@ -13,6 +13,7 @@ namespace {
         int left, right;
         std::unordered_set<T> data;
         std::unordered_set<T> mark = {};
+        std::unordered_set<T> deleted = {};;
 
         Node(int left, int right) : left(left), right(right) {
             lp = rp = nullptr;
@@ -80,6 +81,10 @@ namespace {
             ret.insert(input.begin(), input.end());
         }
 
+        void diffSetInvoke(std::unordered_set<T>& a, std::unordered_set<T>& b) {
+            for (const auto& x : b) a.erase(x);
+        }
+
         void pushDown(Node<T>* node) {
             if (node->mark.size() > 0 && node->lp && node->rp) {
                 mergeInvoke(node->lp->mark, node->mark);
@@ -87,6 +92,14 @@ namespace {
                 mergeInvoke(node->lp->data, node->mark);
                 mergeInvoke(node->rp->data, node->mark);
                 node->mark.clear();
+            }
+
+            if (!node->deleted.empty()) {
+                diffSetInvoke(node->lp->data, node->deleted);
+                diffSetInvoke(node->rp->data, node->deleted);
+                mergeInvoke(node->lp->deleted, node->deleted);
+                mergeInvoke(node->rp->deleted, node->deleted);
+                node->deleted.clear();
             }
         }
 
@@ -131,6 +144,23 @@ namespace {
             }
         }
 
+        bool remove(Node<T>* node, int from, int to, T val) {
+            if (node->left <= from && node->right >= to) {
+                auto x = node->data.erase(val);
+                node->deleted.insert(val);
+                pushDown(node);
+                return x > 0;
+            }
+            int mid = (node->left + node->right) / 2;
+            if (to <= mid) {
+                return remove(node->lp, from, to, val);
+            } else if (mid < from) {
+                return remove(node->rp, from, to, val);
+            } else {
+                return remove(node->lp, from, mid, val) || remove(node->rp, mid+1, to, val);
+            }
+        }
+
     public:
         SegmentTree(std::vector<T> &datas) {
             root = new Node<T>(0, datas.size() - 1);
@@ -157,6 +187,10 @@ namespace {
             return query(root, begin, end);
         }
 
+        bool remove(int from, int to, T val) {
+            return remove(root, from, to, val);
+        }
+
         ~SegmentTree() {
             delete root;
         }
@@ -164,11 +198,18 @@ namespace {
 };
 
 int main() {
-    SegmentTree<std::string> segmentTree(3);
+    SegmentTree<std::string> segmentTree(60*60*24);
     bool result1 = segmentTree.insert(0, 1,"droneSn1");
     bool result2 = segmentTree.insert(0, 1,"droneSn1");
     printf("result1 = %d, result2 = %d\n", result1, result2);
     auto results = segmentTree.query(0, 1);
+    for (const auto & x : results) {
+        printf("%s\n", x.c_str());
+    }
+
+    printf("========================================\n");
+    segmentTree.remove(0, 1, "droneSn1");
+    results = segmentTree.query(0, 1);
     for (const auto & x : results) {
         printf("%s\n", x.c_str());
     }
