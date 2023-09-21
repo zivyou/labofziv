@@ -145,7 +145,7 @@ namespace {
         }
 
         bool remove(Node<T>* node, int from, int to, T val) {
-            if (node->left <= from && node->right >= to) {
+            if (node->left == from && node->right == to) {
                 auto x = node->data.erase(val);
                 node->deleted.insert(val);
                 pushDown(node);
@@ -199,7 +199,7 @@ namespace {
 
 int main() {
     SegmentTree<std::string> segmentTree(60*60*24);
-    bool result1 = segmentTree.insert(0, 1,"droneSn1");
+    bool result1 = segmentTree.insert(0, 60*60*10,"droneSn1");
     bool result2 = segmentTree.insert(0, 1,"droneSn1");
     printf("result1 = %d, result2 = %d\n", result1, result2);
     auto results = segmentTree.query(0, 1);
