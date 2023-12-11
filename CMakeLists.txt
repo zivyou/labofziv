@@ -4,34 +4,11 @@ project(labofziv)
 set(CMAKE_CXX_STANDARD 11)
 
 
-file(GLOB_RECURSE files RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}" "${CMAKE_CURRENT_SOURCE_DIR}/leetcode-cn*")
-foreach(file IN LISTS files)
-    if(IS_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/file)
-        message(file)
-        get_filename_component(bin_name ${file} NAME_WE)
-        add_executable("dir-${bin_name}" ${file}/main.cpp)
-    endif()
-endforeach()
-
-
-file(GLOB_RECURSE files RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}" "${CMAKE_CURRENT_SOURCE_DIR}/leetcode-cn*.cpp")
-foreach(file IN LISTS files)
-    # Get file name without directory
-    get_filename_component(mainname ${file} NAME_WE)
-    add_executable(${mainname} ${file})
-endforeach()
-
-file(GLOB_RECURSE files RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}" "${CMAKE_CURRENT_SOURCE_DIR}/newcoder-*")
-foreach(file IN LISTS files)
-    if(IS_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/file)
-        message(file)
-        get_filename_component(bin_name ${file} NAME_WE)
-        add_executable("dir-${bin_name}" ${file}/main.cpp)
-    endif()
-endforeach()
 
 add_subdirectory(Graph)
 add_subdirectory(UnionFindSet)
 add_subdirectory(Trie)
 add_subdirectory(AVL)
 add_subdirectory(KMP)
+add_subdirectory(leetcode-cn-cpp)
+add_subdirectory(nowcoder)

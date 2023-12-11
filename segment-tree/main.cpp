@@ -209,7 +209,7 @@ int main() {
 
     printf("========================================\n");
     segmentTree.remove(0, 1, "droneSn1");
-    results = segmentTree.query(0, 1);
+    results = segmentTree.query(0, 2);
     for (const auto & x : results) {
         printf("%s\n", x.c_str());
     }
