@@ -1,53 +1,49 @@
+#include <algorithm>
 #include <vector>
 #include <cstdio>
+#include <map>
 
 using namespace std;
 
 class Solution {
 private:
-    vector<int> merge(vector<int>& x, vector<int>& y) {
-        if (x.empty()) return y;
-        if (y.empty()) return x;
-#define NEED_LARGE 0
-#define NEED_SMALL 1
-        bool xNeedLargeOrSmall = x.size() % 2;
-        bool yNeedLargeOrSmall = y.size() % 2;
-        printf("xNeedLargeOrSmall is %d, yNeedLargeOrSmall is %d\n",xNeedLargeOrSmall, yNeedLargeOrSmall);
-        if (xNeedLargeOrSmall == NEED_LARGE && x[x.size()-1] < y[0]) {
-            x.insert(x.end(), y.begin(), y.end());
-            return x;
-        }
-        if (yNeedLargeOrSmall == NEED_LARGE && y[y.size()-1] < x[0]) {
-            y.insert(y.end(), x.begin(), x.end());
-            return y;
-        }
-        if (xNeedLargeOrSmall == NEED_SMALL && x[x.size()-1] > y[0]) {
-            x.insert(x.end(), y.begin(), y.end());
-            return x;
-        }
-        if (yNeedLargeOrSmall == NEED_SMALL && y[y.size()-1] > x[0]) {
-            y.insert(y.end(), x.begin(), x.end());
-            return y;
-        }
-        printf("here!\n");
-        return {};
-    }
+    map<int, int> count;
 public:
     void wiggleSort(vector<int>& nums) {
-        if (nums.size() <= 1) return;
-        int mid = nums.size() / 2;
-        std::vector<int> x; x.assign(nums.begin(), nums.begin()+mid);
-        vector<int> y; y.assign(nums.begin()+mid+1, nums.end());
+        std::sort(nums.begin(), nums.end() );
+        if (nums.size() <= 2) return;
+        auto mid = (nums.size()+1) / 2;
+        for (auto & i : nums) count[i]++;
+        int target = -1;
+        for (const auto & t : count) {
+            if (t.second >= mid) {
+                target = t.first;
+                break;;
+            }
+        }
+        if (target > 0) {
+            auto firstAt = find(nums.begin(), nums.end(), target);
+            auto preCount = (int)(firstAt - nums.begin());
+            printf("firstAt: %d， target: %d \n", firstAt-nums.begin(), target);
+            if (firstAt != nums.end()) {
+                nums.insert(nums.end(), nums.begin(), nums.begin()+count[target]-mid);
+                nums.erase(nums.begin(), nums.begin()+count[target]-mid);
+            }
+        }
 
-        wiggleSort(x);
-        wiggleSort(y);
-        const auto& z = merge(x, y);
-        nums.assign(z.begin(), z.end());
+        for (int i=0; i<nums.size()-1 && nums[i+1]<nums[mid]; i++) {
+            if (nums[i] <= nums[i+1]) {
+                auto x = nums[mid];
+                nums.erase(nums.begin()+mid);
+                nums.insert(nums.begin()+i+1, x);
+                mid++;
+            }
+        }
     }
 };
 
 int main() {
-    vector v = {1, 5, 1, 1, 6, 4};
+    vector<int> v = {3, 5, 5,5,5,6,6,6};
     Solution s;
     s.wiggleSort(v);
     for (const auto & n : v) {
