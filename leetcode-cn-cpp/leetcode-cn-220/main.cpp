@@ -1,12 +1,10 @@
 #include <iostream>
 #include <vector>
-#include <map>
 
 using namespace std;
 
 class Solution {
 public:
-
     bool compare(int a, int b, int c){
         long long aa = a;
         long long bb = b;
@@ -16,19 +14,10 @@ public:
         return false;
     }
     bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t) {
-        map<int, int> m;
-        for (int i=0; i<nums.size(); i++){
-            m[nums[i]] = i;
-        }
-
-        for (map<int, int>::iterator iter = m.begin(); iter!=m.end(); iter++){
-            int j=1;
-            while (next(iter, j) != m.end()){
-                if (compare(iter->first, next(iter,j)->first, t) && j<=k)
+        for (int i=0; i < nums.size(); i++){
+            for (int j=i+1; j<=i+k && j<nums.size(); j++){
+                if (compare(nums[i], nums[j], t))
                     return true;
-                if (j > k || !(compare(iter->first, next(iter,j)->first, t)))
-                    break;
-                j++;
             }
         }
         return false;
@@ -38,8 +27,11 @@ public:
 int main()
 {
     Solution s;
-    vector<int> v({3,2,1});
-    cout<<s.containsNearbyAlmostDuplicate(v, 3, 0)<<endl;
-    cout << "Hello world!" << endl;
+    vector<int> v;
+    int k = 100000; int t = 0;
+    for (int i=1; i<=100000; i++) {
+        v.push_back(i);
+    }
+    cout<<s.containsNearbyAlmostDuplicate(v, k, t)<<endl;
     return 0;
 }
